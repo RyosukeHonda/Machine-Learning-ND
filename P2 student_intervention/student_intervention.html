@@ -849,10 +849,10 @@ Test set: 95 samples
 SVM is useful when we want to two classes.</p>
 <p>Advantages of SVM are as follows.</p>
 <ul>
-    <li>Achieve high accuracy rate</li>
+    <li>Achieve high accuracy rate since SVM try to get the maximum margin  of two classes</li>
+    <li>SVM is useful in text or image classification(useful in high dimensionality)</li>
 </ul><p>Disadvantage of SVM are as follows.</p>
 <ul>
-    <li>if the data can't be divided linearly, the caluculation never end (by using hard-margin or soft-margin SVMs, we can devide the data though.)</li>
     <li>Many choices of parameters so that it's difficult to find the best parameter.</li>
     <li>Not computational scalability (if dimention is high)</li>
 
@@ -1129,11 +1129,11 @@ F1 score for test set: 0.833333333333
 <p>Advantage of Decision Tree Classifier</p>
 <ul>
 <li>Computational scalability</li>
-<li>handling messy-data- missing value m various feature types</li>
+<li>handling messy-data- missing value, various feature types</li>
 <li>ability to deal with irrelevant features--the algorithm automaticcaly select</li>
 </ul><p>Disadvantage</p>
 <ul>
-<li>Achieve lower generalization accuracy(compared to neural network or support vector machine)</li>
+<li>If we use many attributes(many depth of tree), dicision tree will suffer from overfitting and may achieve lower generalization accuracy</li>
 </ul><p>DecisionTree Classifier is useful in this problem since there are many variables and we don't know which variables are important.</p>
 
 </div>
@@ -1809,10 +1809,14 @@ Binary classification is the purpose of this problem. Decision tree classifier i
 <p><strong>--Question--</strong><br>
 In 1-2 paragraphs explain to the board of supervisors in layman's terms how the final model chosen is supposed to work (for example if you chose a Decision Tree or Support Vector Machine, how does it make a prediction).</p>
 <p><strong>--Answer--</strong><br>
-At first AdaBoost Classifier devides the dataset into several ones. Every dataset is trained by <em>weak classifier</em>. After the every data is trained, they are combined into one single classifier.<br></p>
-<p>&lt;<em>weak classifier</em>&gt;
-In this problem, weak learner is decision tree classifier. The process of Decision tree classifier is as follows.
-At first we find the best attribute, then find the threshold on the attribute and divide the data by following the threshold. Repeating these steps, we can devide the dataset.</p>
+ Let's say, our task is to classify whether the person is female or male. Every data point has height, weight and age of people.
+There are three persons(A,B,C) to classify those people.
+Person A classifies people by checking height. If the person is more than 170cm, then the person is classified as male.
+Person B classifies people by weight. If the person is more than 60kg, then the person is classified as male.
+And person C tries to classify people by BMI. People who are more than 22 in BMI are classified as male.
+Person A can attain the best result of the three and person C is the least. So, let's weigh the person A the most and person C the least.</p>
+<p>In stead of summing the every vote equallyA + B + C and picking the top, we weight these weak classifiers to make a much stronger one.
+This is the how the AdaBoost Classifier works.</p>
 
 </div>
 </div>
