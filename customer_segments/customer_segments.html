@@ -531,13 +531,31 @@ dtype: int64</pre>
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
+<div class="prompt input_prompt">In&nbsp;[9]:</div>
 <div class="inner_cell">
     <div class="input_area">
-<div class=" highlight hl-ipython2"><pre> 
+<div class=" highlight hl-ipython2"><pre><span class="k">print</span> <span class="s2">&quot;Customer0&quot;</span><span class="p">,</span><span class="mf">16117.0</span><span class="o">/</span><span class="mf">12000.3</span><span class="o">*</span><span class="mi">100</span><span class="p">,</span><span class="s2">&quot;  &quot;</span><span class="p">,</span><span class="mf">46197.0</span><span class="o">/</span><span class="mf">5796.3</span><span class="o">*</span><span class="mi">100</span><span class="p">,</span><span class="s2">&quot; &quot;</span><span class="p">,</span><span class="mf">92780.0</span><span class="o">/</span><span class="mf">7951.3</span><span class="o">*</span><span class="mi">100</span><span class="p">,</span><span class="s2">&quot; &quot;</span><span class="p">,</span><span class="mi">1026</span><span class="o">/</span><span class="mf">3071.9</span><span class="o">*</span><span class="mi">100</span><span class="p">,</span><span class="s2">&quot; &quot;</span><span class="p">,</span><span class="mi">40827</span><span class="o">/</span><span class="mf">2881.5</span><span class="o">*</span><span class="mi">100</span><span class="p">,</span><span class="s2">&quot; &quot;</span><span class="p">,</span><span class="mi">2944</span><span class="o">/</span><span class="mf">1524.9</span><span class="o">*</span><span class="mi">100</span>
+<span class="k">print</span> <span class="s2">&quot;Customer1&quot;</span><span class="p">,</span><span class="mi">22925</span><span class="o">/</span><span class="mf">12000.3</span><span class="o">*</span><span class="mi">100</span><span class="p">,</span><span class="s2">&quot;  &quot;</span><span class="p">,</span><span class="mi">73498</span><span class="o">/</span><span class="mf">5796.3</span><span class="o">*</span><span class="mi">100</span><span class="p">,</span><span class="s2">&quot; &quot;</span><span class="p">,</span><span class="mi">987</span><span class="o">/</span><span class="mf">7951.3</span><span class="o">*</span><span class="mi">100</span><span class="p">,</span><span class="s2">&quot; &quot;</span><span class="p">,</span><span class="mi">20070</span><span class="o">/</span><span class="mf">3071.9</span><span class="o">*</span><span class="mi">100</span><span class="p">,</span><span class="s2">&quot; &quot;</span><span class="p">,</span><span class="mi">903</span><span class="o">/</span><span class="mf">2881.5</span><span class="o">*</span><span class="mi">100</span><span class="p">,</span><span class="s2">&quot; &quot;</span>
+<span class="k">print</span> <span class="s2">&quot;Customer2&quot;</span><span class="p">,</span><span class="mi">112151</span><span class="o">/</span><span class="mf">12000.3</span><span class="o">*</span><span class="mi">100</span><span class="p">,</span><span class="s2">&quot;  &quot;</span><span class="p">,</span><span class="mi">29627</span><span class="o">/</span><span class="mf">5796.3</span><span class="o">*</span><span class="mi">100</span><span class="p">,</span><span class="s2">&quot; &quot;</span><span class="p">,</span><span class="mi">16745</span><span class="o">/</span><span class="mf">7951.3</span><span class="o">*</span><span class="mi">100</span><span class="p">,</span><span class="s2">&quot; &quot;</span><span class="p">,</span><span class="mi">4948</span><span class="o">/</span><span class="mf">3071.9</span><span class="o">*</span><span class="mi">100</span><span class="p">,</span><span class="s2">&quot; &quot;</span><span class="p">,</span><span class="mi">8550</span><span class="o">/</span><span class="mf">2881.5</span><span class="o">*</span><span class="mi">100</span><span class="p">,</span><span class="s2">&quot; &quot;</span>
 </pre></div>
 
 </div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+
+<div class="output_area"><div class="prompt"></div>
+<div class="output_subarea output_stream output_stdout output_text">
+<pre>Customer0 134.304975709    797.008436416   1166.85321897   33.3995247241   1416.86621551   193.061840121
+Customer1 191.036890744    1268.01580318   12.4130645303   653.34158013   31.3378448725  
+Customer2 934.568302459    511.136414609   210.594493982   161.072951593   296.720458095  
+</pre>
+</div>
+</div>
+
 </div>
 </div>
 
@@ -548,7 +566,10 @@ dtype: int64</pre>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
 <p><strong>Answer:</strong>
-The first customer has the highest number in Grocery, the second customer has the highest in Milk and the third has the highest in Fresh.</p>
+I calculated the ratio between Customer and average of the data(Customer/average) above.</p>
+<p>Customer 0 is basically higher than average except the net sales of Frozen(33.4%). The sales of Milk is conspicuously high(797%).<br>
+Customer 1 is bascially higher than average except the net sales of Frozen(12.4%) and Delicatessen(31.3%). The sales of Milk is especially high(1268%).<br>
+Customer 2 is also higher than the average,especially in Fresh(934.6%) and Milk(511.1%)</p>
 
 </div>
 </div>
@@ -562,10 +583,8 @@ The first customer has the highest number in Grocery, the second customer has th
 <p>In the code block below, you will need to implement the following:</p>
 <ul>
 <li>Assign <code>new_data</code> a copy of the data by removing a feature of your choice using the <code>DataFrame.drop</code> function.</li>
-<li>Use <code>sklearn.cross_validation.train_test_split</code> to split the dataset into training and testing sets.<ul>
+<li>Use <code>sklearn.cross_validation.train_test_split</code> to split the dataset into training and testing sets.</li>
 <li>Use the removed feature as your target label. Set a <code>test_size</code> of <code>0.25</code> and set a <code>random_state</code>.</li>
-</ul>
-</li>
 <li>Import a decision tree regressor, set a <code>random_state</code>, and fit the learner to the training data.</li>
 <li>Report the prediction score of the testing set using the regressor's <code>score</code> function.</li>
 </ul>
@@ -672,7 +691,7 @@ The first customer has the highest number in Grocery, the second customer has th
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<p><strong>Answer:</strong> I tried to predict the feature of "Detergents_Paper". R^2=0.598. This number is relatively high. Therefore, this feature is relevant for identifing a specific customer.</p>
+<p><strong>Answer:</strong> I tried to predict the feature of "Detergents_Paper". R^2=0.753. This number is high. That means the sales of Detergents_Paper is correlated to other products(Fresh, Milk, Grocery, Frozen and Delicatessen). This is a good information, but this is not enough to identify a specific customer since what we can know is that "higher sales of Detergents_Paper means higher sales of other products".</p>
 
 </div>
 </div>
@@ -9117,8 +9136,9 @@ By not changing all of the delivery time in each segment, we can see the effect 
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
 <p><strong>Answer:</strong>
-We got two clusters through unsupervised learning. Each data point is classified by two clusters(0 and 1). We can use this as new label.
-In this problem, we don't use "Region" so far. We can use "Region" as the target value and we can predict it by using the new label(mentioned above) and the products sales values(Fresh, Milk, Grocery, Frozen, Detergents_Paper and Delicatessen).</p>
+We got two clusters through unsupervised learning. Each data point is classified by two clusters(0 and 1). We can use this information as new feature(input feature).
+In this problem, we don't use "Region" so far. We can use "Region" as the target value(output feature).<br>
+We can predict it by using the new feature(mentioned above) and the products sales values(Fresh, Milk, Grocery, Frozen, Detergents_Paper and Delicatessen) as input features.</p>
 
 </div>
 </div>
