@@ -125,7 +125,7 @@ class LearningAgent(Agent):
         total_preserve=self.total_reward
         print "\n"
         print "\n"
-
+        new_time=t
 
         #update the episode number
         if old_time==0:
@@ -159,7 +159,7 @@ def run():
     a = e.create_agent(LearningAgent)  # create agent
     e.set_primary_agent(a, enforce_deadline=True)  # set agent to track
     # Now simulate it
-    sim = Simulator(e, update_delay=1,display=True)  # reduce update_delay to speed up simulation
+    sim = Simulator(e, update_delay=0.1,display=True)  # reduce update_delay to speed up simulation
     sim.run(n_trials=100)  # press Esc or close pygame window to quit
 
 if __name__ == '__main__':
