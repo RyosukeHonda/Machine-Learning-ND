@@ -1,4 +1,4 @@
-This is e-pTeX, Version 3.14159265-p3.6-141210-2.6 (utf8.euc) (TeX Live 2015) (preloaded format=platex 2015.11.24)  28 JUL 2016 23:02
+This is e-pTeX, Version 3.14159265-p3.6-141210-2.6 (utf8.euc) (TeX Live 2015) (preloaded format=platex 2015.11.24)  29 JUL 2016 00:27
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -66,7 +66,13 @@ LaTeX Font Info:    Font shape `JT1/mc/bx/n' in size <12> not available
 (Font)              Font shape `JT1/gt/m/n' tried instead on input line 10.
 LaTeX Font Info:    Font shape `JY1/mc/bx/n' in size <12> not available
 (Font)              Font shape `JY1/gt/m/n' tried instead on input line 10.
- [1
+
+Overfull \hbox (4.45903pt too wide) in paragraph at lines 23--26
+[]\OT1/cmr/m/n/10 The CIFAR-10 dataset con-sists of 60000 32x32x3(width=height=
+32 and RGB=3)
+ []
+
+[1
 
 ] [2] [3] (./capstone.aux) ) 
 Here is how much of TeX's memory you used:
@@ -78,4 +84,4 @@ Here is how much of TeX's memory you used:
  929 hyphenation exceptions out of 8191
  23i,6n,24p,365b,223s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on capstone.dvi (3 pages, 5128 bytes).
+Output written on capstone.dvi (3 pages, 5700 bytes).
