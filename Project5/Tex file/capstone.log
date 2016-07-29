@@ -1,4 +1,4 @@
-This is e-pTeX, Version 3.14159265-p3.6-141210-2.6 (utf8.euc) (TeX Live 2015) (preloaded format=platex 2015.10.5)  29 JUL 2016 14:04
+This is e-pTeX, Version 3.14159265-p3.6-141210-2.6 (utf8.euc) (TeX Live 2015) (preloaded format=platex 2015.10.5)  29 JUL 2016 14:57
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -98,9 +98,9 @@ LaTeX Font Info:    Font shape `JY1/mc/bx/n' in size <12> not available
 (Font)              Font shape `JY1/gt/m/n' tried instead on input line 11.
 File: picture/Image_Recognition.png Graphic file (type bmp)
  <picture/Image_Recognition.png>
-Overfull \hbox (4.45903pt too wide) in paragraph at lines 36--39
-[]\OT1/cmr/m/n/10 The CIFAR-10 dataset con-sists of 60000 32x32x3(width=height=
-32 and RGB=3)
+Overfull \hbox (7.23682pt too wide) in paragraph at lines 36--39
+[]\OT1/cmr/m/n/10 The CIFAR-10 dataset con-sists of 60,000 32x32x3(width=height
+=32 and RGB=3)
  []
 
 [1
@@ -111,18 +111,22 @@ File: picture/random_sample.png Graphic file (type bmp)
 File: picture/Distribution_of_Training_Data.png Graphic file (type bmp)
  <picture/Distribution_of_Training_Data.png>
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 84.
+(Font)              <7> on input line 85.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 84.
+(Font)              <5> on input line 85.
 File: picture/Distribution_of_Test_Data.png Graphic file (type bmp)
 
 <picture/Distribution_of_Test_Data.png>
-Overfull \hbox (2.22221pt too wide) in paragraph at lines 78--92
+Overfull \hbox (2.22221pt too wide) in paragraph at lines 79--93
 []$[]$ $[]$ 
  []
 
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[2]
 File: picture/Architecture_of_CNN.png Graphic file (type bmp)
-<picture/Architecture_of_CNN.png> [2] [3] [4] (./capstone.aux)
+ <picture/Architecture_of_CNN.png> [3] [4] (./capstone.aux)
 
 LaTeX Warning: There were multiply-defined labels.
 
@@ -134,6 +138,6 @@ Here is how much of TeX's memory you used:
  4135 multiletter control sequences out of 15000+600000
  13621 words of font info for 53 fonts, out of 8000000 for 9000
  929 hyphenation exceptions out of 8191
- 25i,6n,24p,394b,354s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 25i,6n,24p,426b,354s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on capstone.dvi (4 pages, 7224 bytes).
+Output written on capstone.dvi (4 pages, 8340 bytes).

@@ -56,7 +56,7 @@ Cross entropy is
 If a dataset is present, features and calculated statistics relevant to the problem have been reported and discussed, along with a sampling of the data. In lieu of a dataset, a thorough description of the input space or input data has been made. Abnormalities or characteristics about the data or input that need to be addressed have been identified.
 
 
-
+CIFAR-10 dataset consists of 50,000 images of training data and 10,000 images of test data.For each data, it contains 10 different kind of classes(discussed in the next chapter) and the distribution of each class is the same in both training and test data. That means 5,000 images for each class in the training data and 1,000 images for each class in the test data.(Figure.\ref{fig:three} and Figure.4)
 
 
 \subsection{Exploratory Visualization}
@@ -75,7 +75,7 @@ The label 0 to 9 corresponds to 'Airplane','Automobile','Bird','Cat','Deer','Dog
 
 \end{figure}
 
-\begin{figure}[htbp]
+\begin{figure}[h]
 \begin{minipage}{0.5\hsize}
 	\begin{center}
 	\includegraphics[width=5cm]{picture/Distribution_of_Training_Data.png}
@@ -95,6 +95,9 @@ The label 0 to 9 corresponds to 'Airplane','Automobile','Bird','Cat','Deer','Dog
 
 \subsection{Algorithms and Techniques}
 Algorithms and techniques used in the project are thoroughly discussed and properly justified based on the characteristics of the problem.
+
+In this task, I'll use Convolutional Neural Network(CNN). CNN has been successful in  practical applications for image recognition.CNN consists of convolution layer, pooling layer and fully-connected layer and sometimes contains local contrast normalization(LCN). In this chapter, I'll discuss the convolution layer and pooling.
+As the name 'convolution' suggests, the network employs a mathematical operation called convolution. 
 
 \begin{figure}[htbp]
 
