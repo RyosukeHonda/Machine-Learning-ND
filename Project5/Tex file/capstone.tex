@@ -171,6 +171,18 @@ Student clearly defines a benchmark result or threshold for comparing performanc
 \subsection{Data Preprocessing}
 All preprocessing steps have been clearly documented. Abnormalities or characteristics about the data or input that needed to be addressed have been corrected. If no data preprocessing is necessary, it has been clearly justified.
 
+When analyzing the data, data preprocessing plays a crucial role. One of the first steps is the normalization of the data. This step is essential when dealing with parameters of different units and scales. In this dataset, pixel values range from 0 to 255. I process normalization to this dataset.
+Normalization scales all numeric variables in the range of [0,1].The formula is given below.
+
+\begin{eqnarray}
+x_{new}=\frac{x-x_{min}}{x_{max}-x_{min}}
+\end{eqnarray}
+
+The minimum pixel value is 0 and maximum pixel value is 255. Therefore, I normalized the data by following.
+
+\begin{eqnarray}
+x_{new}=\frac{x}{255}
+\end{eqnarray}
 
 \subsection{Implementation}
 The process for which metrics, algorithms, and techniques were implemented with the given datasets or input data has been thoroughly documented. Complications that occurred during the coding process are discussed.
