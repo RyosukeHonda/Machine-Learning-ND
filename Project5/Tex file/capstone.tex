@@ -113,6 +113,17 @@ Figure.5 is the example of the architecture of the CNN.
 
 \end{figure}
 
+Pooling layer is put after the convolution layer. Pooling layer reduces the dimensionality of the input image. That will be useful even though the feature in the image slightly changed. As the input image goes through the convolutional layer, the number of feature maps will increase and the conputational time will also increase at the same time. By introducing pooling layer, not only the architecture will be more robust but also the dimensionality will be reduced.
+
+\begin{figure}[htbp]
+
+	\begin{center}
+	\includegraphics[width=10cm]{picture/Pooling.png}
+	\caption{Example of Max Pooling and Average Pooling}
+	\end{center}
+	\label{fig:six}
+
+\end{figure}
 
 
 \subsection{Benchmark}
