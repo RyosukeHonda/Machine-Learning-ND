@@ -50,10 +50,22 @@ In this task, I'll discuss the image recognition by Convolutional Neural Network
 Metrics used to measure performance of a model or result are clearly defined. Metrics aper classre justified based on the characteristics of the problem.
 
 
-The objective in this problem is multi class classification. Therefore,the metrics will be 'cross entropy'.
-Cross entropy is 
+The objective in this problem is multi class classification. Therefore,the metrics will be 'cross entropy'. The objective of the learning in this task is to minimize the cross entropy.
+Cross entropy is defined as the following formula.
 
 
+\begin{eqnarray}
+C = -\sum_{j=1}^{n}d_{j}\log p_{j}
+\end{eqnarray}
+
+$d_{1},...,d_{n}$ is the optimal output(Correct output).$p_{1},...,p_{n}$ is the  probability of for the output class. This probability is calculated by softmax function which is defined as below.
+
+\begin{eqnarray}
+p_{j}=\frac{e^{u_{j}}}{\sum_{k=1}^{n}e^{u_{k}}}
+\end{eqnarray}
+
+Classification Error is calculated by the difference between the optimal output $d_{1},...,d_{n}$ and predicted output$p_{1},...,p_{n}$.
+The target output$d_{1},...,d_{n}$ takes the representation of 1-of-n. That means that only the correct label j becomes $d_{j}=1$ and the others k($\neq$ j) become $d_{k}=0$.
 \section{Analysis}
 \subsection{Data Exploration}
 If a dataset is present, features and calculated statistics relevant to the problem have been reported and discussed, along with a sampling of the data. In lieu of a dataset, a thorough description of the input space or input data has been made. Abnormalities or characteristics about the data or input that need to be addressed have been identified.
@@ -113,7 +125,32 @@ Figure.5 is the example of the architecture of the CNN.
 
 \end{figure}
 
-Pooling layer is put after the convolution layer. Pooling layer reduces the dimensionality of the input image. That will be useful even though the feature in the image slightly changed. As the input image goes through the convolutional layer, the number of feature maps will increase and the conputational time will also increase at the same time. By introducing pooling layer, not only the architecture will be more robust but also the dimensionality will be reduced.
+
+
+
+\begin{figure}[htbp]
+
+	\begin{center}
+	\includegraphics[width=10cm]{picture/Structure_of_convolution.png}
+	\caption{Example of Max Pooling and Average Pooling}
+	\end{center}
+	\label{fig:six}
+
+\end{figure}
+
+
+
+
+
+
+
+
+
+
+
+Pooling layer is put after the convolution layer. %Pooling layer reduces the dimensionality of the input image. 
+The function of the pooling layer is to progressively reduce the spatial size of the representation to reduce the amount of parameters and computation in the network, and hence to also control overfitting.
+By introducing pooling layer, not only the architecture will be more robust but also the dimensionality will be reduced. Max pooling and Average pooling are the typical pooling which are generally utilized. Figure.7 is the example of the pooling.The original map is the size of 4x4. The stride for the pooling is 2 and the pooling size is 2x2. "Max pooling" is to extract the maximum pixel from each region and "Average pooling" is to calculate the average value for each region.
 
 \begin{figure}[htbp]
 
@@ -121,7 +158,7 @@ Pooling layer is put after the convolution layer. Pooling layer reduces the dime
 	\includegraphics[width=10cm]{picture/Pooling.png}
 	\caption{Example of Max Pooling and Average Pooling}
 	\end{center}
-	\label{fig:six}
+	\label{fig:seven}
 
 \end{figure}
 

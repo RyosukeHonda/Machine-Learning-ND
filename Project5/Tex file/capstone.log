@@ -1,4 +1,4 @@
-This is e-pTeX, Version 3.14159265-p3.6-141210-2.6 (utf8.euc) (TeX Live 2015) (preloaded format=platex 2015.10.5)  2 AUG 2016 14:10
+This is e-pTeX, Version 3.14159265-p3.6-141210-2.6 (utf8.euc) (TeX Live 2015) (preloaded format=platex 2015.10.5)  2 AUG 2016 16:15
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -102,36 +102,39 @@ Overfull \hbox (7.23682pt too wide) in paragraph at lines 39--42
 [1
 
 ]
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <7> on input line 57.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <5> on input line 57.
 File: picture/random_sample.png Graphic file (type bmp)
  <picture/random_sample.png>
 File: picture/Distribution_of_Training_Data.png Graphic file (type bmp)
  <picture/Distribution_of_Training_Data.png>
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 88.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 88.
 File: picture/Distribution_of_Test_Data.png Graphic file (type bmp)
 
 <picture/Distribution_of_Test_Data.png>
-Overfull \hbox (2.22221pt too wide) in paragraph at lines 82--96
+Overfull \hbox (2.22221pt too wide) in paragraph at lines 94--108
 []$[]$ $[]$ 
  []
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
+[2]
 File: picture/Architecture_of_CNN.png Graphic file (type bmp)
-<picture/Architecture_of_CNN.png>
+ <picture/Architecture_of_CNN.png>
+File: picture/Structure_of_convolution.png Graphic file (type bmp)
+ <picture/Structure_of_convolution.png>
+[3]
 File: picture/Pooling.png Graphic file (type bmp)
- <picture/Pooling.png> [2] [3] [4] [5]
-(./capstone.aux) ) 
+ <picture/Pooling.png> [4] [5] [6] (./capstone.aux) ) 
 Here is how much of TeX's memory you used:
- 606 strings out of 493777
- 7708 string characters out of 6151334
- 68127 words of memory out of 5000000
- 4138 multiletter control sequences out of 15000+600000
+ 609 strings out of 493777
+ 7783 string characters out of 6151334
+ 69127 words of memory out of 5000000
+ 4140 multiletter control sequences out of 15000+600000
  13621 words of font info for 53 fonts, out of 8000000 for 9000
  929 hyphenation exceptions out of 8191
- 25i,6n,24p,675b,354s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 25i,8n,24p,675b,354s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on capstone.dvi (5 pages, 10124 bytes).
+Output written on capstone.dvi (6 pages, 12220 bytes).
