@@ -1,4 +1,4 @@
-This is e-pTeX, Version 3.14159265-p3.6-141210-2.6 (utf8.euc) (TeX Live 2015) (preloaded format=platex 2015.10.5)  29 JUL 2016 15:22
+This is e-pTeX, Version 3.14159265-p3.6-141210-2.6 (utf8.euc) (TeX Live 2015) (preloaded format=platex 2015.10.5)  2 AUG 2016 10:53
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -59,11 +59,7 @@ eX Live/ChoF)
 \Gin@req@height=\dimen120
 \Gin@req@width=\dimen121
 )
-(./capstone.aux
-
-LaTeX Warning: Label `fig:four' multiply defined.
-
-)
+(./capstone.aux)
 \openout1 = `capstone.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 7.
@@ -125,18 +121,14 @@ Overfull \hbox (2.22221pt too wide) in paragraph at lines 82--96
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 File: picture/Architecture_of_CNN.png Graphic file (type bmp)
-<picture/Architecture_of_CNN.png> [2] [3] [4] (./capstone.aux)
-
-LaTeX Warning: There were multiply-defined labels.
-
- ) 
+<picture/Architecture_of_CNN.png> [2] [3] [4] (./capstone.aux) ) 
 Here is how much of TeX's memory you used:
- 602 strings out of 493777
- 7659 string characters out of 6151334
+ 603 strings out of 493777
+ 7669 string characters out of 6151334
  68127 words of memory out of 5000000
- 4135 multiletter control sequences out of 15000+600000
+ 4136 multiletter control sequences out of 15000+600000
  13621 words of font info for 53 fonts, out of 8000000 for 9000
  929 hyphenation exceptions out of 8191
  25i,6n,24p,675b,354s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on capstone.dvi (4 pages, 9188 bytes).
+Output written on capstone.dvi (4 pages, 9256 bytes).
