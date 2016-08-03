@@ -1,4 +1,4 @@
-This is e-pTeX, Version 3.14159265-p3.6-141210-2.6 (utf8.euc) (TeX Live 2015) (preloaded format=platex 2015.10.5)  3 AUG 2016 17:09
+This is e-pTeX, Version 3.14159265-p3.6-141210-2.6 (utf8.euc) (TeX Live 2015) (preloaded format=platex 2015.10.5)  3 AUG 2016 19:30
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -59,7 +59,20 @@ eX Live/ChoF)
 \Gin@req@height=\dimen120
 \Gin@req@width=\dimen121
 )
-(./capstone.aux)
+(./capstone.aux
+
+LaTeX Warning: Label `fig:seven' multiply defined.
+
+
+LaTeX Warning: Label `fig:seven' multiply defined.
+
+
+LaTeX Warning: Label `fig:seven' multiply defined.
+
+
+LaTeX Warning: Label `fig:seven' multiply defined.
+
+)
 \openout1 = `capstone.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 7.
@@ -127,14 +140,28 @@ File: picture/Structure_of_convolution.png Graphic file (type bmp)
  <picture/Structure_of_convolution.png>
 [3]
 File: picture/Pooling.png Graphic file (type bmp)
- <picture/Pooling.png> [4] [5] [6] (./capstone.aux) ) 
+ <picture/Pooling.png>
+File: picture/1layer_cnn.png Graphic file (type bmp)
+ <picture/1layer_cnn.png>
+File: picture/2layer_cnn.png Graphic file (type bmp)
+ <picture/2layer_cnn.png>
+File: picture/3layer_cnn.png Graphic file (type bmp)
+
+<picture/3layer_cnn.png> [4] [5]
+File: picture/4layer_cnn.png Graphic file (type bmp)
+ <picture/4layer_cnn.png> [6] [7] [8]
+(./capstone.aux)
+
+LaTeX Warning: There were multiply-defined labels.
+
+ ) 
 Here is how much of TeX's memory you used:
- 609 strings out of 493777
- 7783 string characters out of 6151334
+ 621 strings out of 493777
+ 7969 string characters out of 6151334
  69127 words of memory out of 5000000
- 4140 multiletter control sequences out of 15000+600000
+ 4148 multiletter control sequences out of 15000+600000
  13621 words of font info for 53 fonts, out of 8000000 for 9000
  929 hyphenation exceptions out of 8191
- 25i,8n,24p,675b,354s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 25i,8n,24p,675b,384s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on capstone.dvi (6 pages, 15588 bytes).
+Output written on capstone.dvi (8 pages, 16576 bytes).
