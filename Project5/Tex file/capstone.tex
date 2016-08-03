@@ -166,6 +166,28 @@ By introducing pooling layer, not only the architecture will be more robust but 
 \subsection{Benchmark}
 Student clearly defines a benchmark result or threshold for comparing performances of solutions obtained.
 
+For the CNNs architecture, it is quite important to decide the number of layers.Therefore, I first choose several convolutional layers and decide one of them as a benchmark.
+
+When deciding the architecture, I set the mutual parameters as follows.
+The number of batch size is 32.The number of filters of each convolutional layer is 32. and finally the number of epochs is 20.
+
+I tried 4 architecture of CNNs.
+
+\begin{enumerate}
+ \item 1 Convolutional layer  2 Fully connected layers \\
+ The simplest version in these model.The input and output dimension on each layer are below.
+ The accuracy rate of training and validation data are also below.
+ \item 2 Convolutional layers  2 Fully connected layers \\
+ The input and output dimension on each layer are below.
+ The accuracy rate of training and validation data are also below.
+ \item 3 Convolutional layers 2 Fully connected layers \\
+ The accuracy rate of training and validation data are also below.
+ \item 4 Convolutional layers 2 Fully connected layers \\
+ The accuracy rate of training and validation data are also below.
+\end{enumerate}
+
+
+From these results, I choose --------- as the benchmark for this task.
 
 \section{Methodology}
 \subsection{Data Preprocessing}
@@ -189,13 +211,26 @@ x_{new}=\frac{x}{255}
 \subsection{Implementation}
 The process for which metrics, algorithms, and techniques were implemented with the given datasets or input data has been thoroughly documented. Complications that occurred during the coding process are discussed.
 
+
+
+
+
+
 \subsection{Refinement}
 The process of improving upon the algorithms and techniques used is clearly documented. Both the initial and final solutions are reported, along with intermediate solutions, if necessary.
 
 Finding the optimal parameters for deep learning is quite difficult though it is important. When it comes to typical machine learning algorithm(Decision tree, Support Vector Machine etc.),grid search is taken to search the optimal parameters. However, it's almost impossible to apply grid search in deep learning because of the computational time. Therefore, other methods are indispensable. A good choice is Bayesian optimization, which has been shown to outperform other state of the art global optimization algorithms on a number of challenging optimization benchmark functions.
+
+
+
+
 \section{Result}
 \subsection{Model Evaluation and Validation}
 The final model’s qualities — such as parameters — are evaluated in detail. Some type of analysis is used to validate the robustness of the model’s solution.
+
+From the result of Bayesian Optimization, I chose ----- as the final model parameters.
+
+
 
 \subsection{Justification}
 The final results are compared to the benchmark result or threshold with some type of statistical analysis. Justification is made as to whether the final model and solution is significant enough to have adequately solved the problem.
@@ -212,6 +247,7 @@ Student adequately summarizes the end-to-end problem solution and discusses one 
 
 \subsection{Improvement}
 Discussion is made as to how one aspect of the implementation could be improved. Potential solutions resulting from these improvements are considered and compared/contrasted to the current solution.
+
 
 
 
