@@ -1,9 +1,9 @@
 # Fdb version 3
-["dvipdf"] 1470231331 "capstone.dvi" "capstone.pdf" "capstone" 1470231332
-  "capstone.dvi" 1470231331 16576 f730b9390a97af1502d2c3270f7a0193 "latex"
+["dvipdf"] 1470231960 "capstone.dvi" "capstone.pdf" "capstone" 1470231961
+  "capstone.dvi" 1470231960 16592 fdf2a5db2a6d03881478ab7527fcaa34 "latex"
   (generated)
   "capstone.pdf"
-["latex"] 1470231329 "capstone.tex" "capstone.dvi" "capstone" 1470231332
+["latex"] 1470231959 "capstone.tex" "capstone.dvi" "capstone" 1470231961
   "/usr/local/texlive/2015/texmf-dist/fonts/map/fontname/texfonts.map" 1272929888 3287 e6b82fe08f5336d4d5ebc73fb1152e87 ""
   "/usr/local/texlive/2015/texmf-dist/fonts/tfm/ptex/standard/goth10.tfm" 1274206740 1200 05cd01c8b39c63a2f8185f7e6e5b2300 ""
   "/usr/local/texlive/2015/texmf-dist/fonts/tfm/ptex/standard/min10.tfm" 1274206740 1200 6411f221f4825dfcb18a17ab21ae7081 ""
@@ -39,8 +39,16 @@
   "Tex_Section2/Benchmark.tex" 1470231303 2091 1492d79b81ecdca93caf8269f00d91f2 ""
   "Tex_Section2/Data_Exploration.tex" 1470230577 790 38428aa3db82e97a8be10a5b0f1addd8 ""
   "Tex_Section2/Exploratory_Visualization.tex" 1470230763 1333 23aa71b70c103839f7b4881062485292 ""
-  "capstone.aux" 1470231331 3167 109ef4abca768db7d900e11e332a93ea ""
-  "capstone.tex" 1470231328 3826 1feba269bcb18fa5404441d2605aa08b ""
+  "Tex_Section3/Data_Preprocessing.tex" 1470231418 1003 5f62859f2a5cf2f0b51366767cc3741f ""
+  "Tex_Section3/Implementation.tex" 1470231480 242 e36a3af3c7baa507b1dcbb33b9815eaa ""
+  "Tex_Section3/Refinement.tex" 1470231575 796 c2acf70f2ea18ac4d2ec093487ccafa0 ""
+  "Tex_Section4/Justification.tex" 1470231725 261 ba6bc9d2a07b844f0fabb5424780e506 ""
+  "Tex_Section4/Model_Evaluation_and_Validation.tex" 1470231650 300 ebe04468a3b46afda5941b1e824b6665 ""
+  "Tex_Section5/Free-Form_Visualization.tex" 1470231811 185 98359312e4af8158e58f6a61112a0bd8 ""
+  "Tex_Section5/Improvement.tex" 1470231910 224 3881029acbef683cada897931f8b4a16 ""
+  "Tex_Section5/Reflection.tex" 1470231872 182 6a5519ec367d7808e8641cd13a0da65c ""
+  "capstone.aux" 1470231960 3082 f9c2906d6e45d551cf99a689572a5e4c ""
+  "capstone.tex" 1470231957 914 ddb9f898f9106d562f13c160ad005be1 ""
   "extractbb -O picture/1layer_cnn.png" 0 -1 0 ""
   "extractbb -O picture/2layer_cnn.png" 0 -1 0 ""
   "extractbb -O picture/3layer_cnn.png" 0 -1 0 ""
@@ -65,5 +73,5 @@
   "picture/random_sample.png" 1470228883 726313 24aeb1b974299228b52acd71ee1922b0 ""
   (generated)
   "capstone.aux"
-  "capstone.dvi"
   "capstone.log"
+  "capstone.dvi"

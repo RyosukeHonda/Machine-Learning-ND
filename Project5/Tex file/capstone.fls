@@ -86,4 +86,20 @@ INPUT picture/3layer_cnn.png
 INPUT extractbb -O picture/3layer_cnn.png
 INPUT picture/4layer_cnn.png
 INPUT extractbb -O picture/4layer_cnn.png
+INPUT Tex_Section3/Data_Preprocessing.tex
+INPUT Tex_Section3/Data_Preprocessing.tex
+INPUT Tex_Section3/Implementation.tex
+INPUT Tex_Section3/Implementation.tex
+INPUT Tex_Section3/Refinement.tex
+INPUT Tex_Section3/Refinement.tex
+INPUT Tex_Section4/Model_Evaluation_and_Validation.tex
+INPUT Tex_Section4/Model_Evaluation_and_Validation.tex
+INPUT Tex_Section4/Justification.tex
+INPUT Tex_Section4/Justification.tex
+INPUT Tex_Section5/Free-Form_Visualization.tex
+INPUT Tex_Section5/Free-Form_Visualization.tex
+INPUT Tex_Section5/Reflection.tex
+INPUT Tex_Section5/Reflection.tex
+INPUT Tex_Section5/Improvement.tex
+INPUT Tex_Section5/Improvement.tex
 INPUT capstone.aux
