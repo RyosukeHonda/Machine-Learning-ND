@@ -48,28 +48,36 @@ INPUT /usr/local/texlive/2015/texmf-dist/fonts/tfm/public/cm/cmr12.tfm
 INPUT /usr/local/texlive/2015/texmf-dist/fonts/tfm/ptex/standard/tgoth10.tfm
 INPUT /usr/local/texlive/2015/texmf-dist/fonts/tfm/ptex/standard/goth10.tfm
 INPUT /usr/local/texlive/2015/texmf-dist/fonts/tfm/public/cm/cmbx12.tfm
-INPUT Tex_Section/Project_Overview.tex
-INPUT Tex_Section/Project_Overview.tex
+INPUT Tex_Section1/Project_Overview.tex
+INPUT Tex_Section1/Project_Overview.tex
 INPUT /usr/local/texlive/2015/texmf-dist/fonts/tfm/public/cm/cmbx12.tfm
 INPUT picture/Image_Recognition.png
 INPUT extractbb -O picture/Image_Recognition.png
-INPUT Tex_Section/Problem_Statement.tex
-INPUT Tex_Section/Problem_Statement.tex
-INPUT Tex_Section/Metrics.tex
-INPUT Tex_Section/Metrics.tex
+INPUT Tex_Section1/Problem_Statement.tex
+INPUT Tex_Section1/Problem_Statement.tex
+INPUT Tex_Section1/Metrics.tex
+INPUT Tex_Section1/Metrics.tex
 OUTPUT capstone.dvi
+INPUT Tex_Section2/Data_Exploration.tex
+INPUT Tex_Section2/Data_Exploration.tex
+INPUT Tex_Section2/Exploratory_Visualization.tex
+INPUT Tex_Section2/Exploratory_Visualization.tex
 INPUT picture/random_sample.png
 INPUT extractbb -O picture/random_sample.png
 INPUT picture/Distribution_of_Training_Data.png
 INPUT extractbb -O picture/Distribution_of_Training_Data.png
 INPUT picture/Distribution_of_Test_Data.png
 INPUT extractbb -O picture/Distribution_of_Test_Data.png
+INPUT Tex_Section2/Algorithms_and_Techniques.tex
+INPUT Tex_Section2/Algorithms_and_Techniques.tex
 INPUT picture/Architecture_of_CNN.png
 INPUT extractbb -O picture/Architecture_of_CNN.png
 INPUT picture/Structure_of_convolution.png
 INPUT extractbb -O picture/Structure_of_convolution.png
 INPUT picture/Pooling.png
 INPUT extractbb -O picture/Pooling.png
+INPUT Tex_Section2/Benchmark.tex
+INPUT Tex_Section2/Benchmark.tex
 INPUT picture/1layer_cnn.png
 INPUT extractbb -O picture/1layer_cnn.png
 INPUT picture/2layer_cnn.png
