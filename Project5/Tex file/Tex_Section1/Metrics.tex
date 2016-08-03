@@ -1,0 +1,20 @@
+\subsection{Metrics}
+Metrics used to measure performance of a model or result are clearly defined. Metrics aper classre justified based on the characteristics of the problem.
+
+
+The objective in this problem is multi class classification. Therefore,the metrics will be 'cross entropy'. The objective of the learning in this task is to minimize the cross entropy.
+Cross entropy is defined as the following formula.
+
+
+\begin{eqnarray}
+C = -\sum_{j=1}^{n}d_{j}\log p_{j}
+\end{eqnarray}
+
+$d_{1},...,d_{n}$ is the optimal output(Correct output).$p_{1},...,p_{n}$ is the  probability of for the output class. This probability is calculated by softmax function which is defined as below.
+
+\begin{eqnarray}
+p_{j}=\frac{e^{u_{j}}}{\sum_{k=1}^{n}e^{u_{k}}}
+\end{eqnarray}
+
+Classification Error is calculated by the difference between the optimal output $d_{1},...,d_{n}$ and predicted output$p_{1},...,p_{n}$.
+The target output$d_{1},...,d_{n}$ takes the representation of 1-of-n. That means that only the correct label j becomes $d_{j}=1$ and the others k($\neq$ j) become $d_{k}=0$.

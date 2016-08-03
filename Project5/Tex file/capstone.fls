@@ -1,4 +1,4 @@
-PWD /Users/Ryosuke/Desktop/GitHub/Machine-Learning-ND/Project5
+PWD /Users/Ryosuke/Desktop/Machine-Learning-ND/Project5/Tex file
 INPUT /usr/local/texlive/2015/texmf.cnf
 INPUT /usr/local/texlive/2015/texmf-dist/web2c/texmf.cnf
 INPUT /usr/local/texlive/2015/texmf.cnf
@@ -11,6 +11,18 @@ INPUT /usr/local/texlive/2015/texmf-dist/tex/latex/base/fleqn.clo
 INPUT /usr/local/texlive/2015/texmf-dist/tex/latex/base/fleqn.clo
 INPUT /usr/local/texlive/2015/texmf-dist/tex/latex/base/size10.clo
 INPUT /usr/local/texlive/2015/texmf-dist/tex/latex/base/size10.clo
+INPUT /usr/local/texlive/2015/texmf-dist/tex/latex/graphics/graphicx.sty
+INPUT /usr/local/texlive/2015/texmf-dist/tex/latex/graphics/graphicx.sty
+INPUT /usr/local/texlive/2015/texmf-dist/tex/latex/graphics/keyval.sty
+INPUT /usr/local/texlive/2015/texmf-dist/tex/latex/graphics/keyval.sty
+INPUT /usr/local/texlive/2015/texmf-dist/tex/latex/graphics/graphics.sty
+INPUT /usr/local/texlive/2015/texmf-dist/tex/latex/graphics/graphics.sty
+INPUT /usr/local/texlive/2015/texmf-dist/tex/latex/graphics/trig.sty
+INPUT /usr/local/texlive/2015/texmf-dist/tex/latex/graphics/trig.sty
+INPUT /usr/local/texlive/2015/texmf-dist/tex/latex/latexconfig/graphics.cfg
+INPUT /usr/local/texlive/2015/texmf-dist/tex/latex/latexconfig/graphics.cfg
+INPUT /usr/local/texlive/2015/texmf-dist/tex/latex/dvipdfmx-def/dvipdfmx.def
+INPUT /usr/local/texlive/2015/texmf-dist/tex/latex/dvipdfmx-def/dvipdfmx.def
 INPUT capstone.aux
 INPUT capstone.aux
 OUTPUT capstone.aux
@@ -36,6 +48,34 @@ INPUT /usr/local/texlive/2015/texmf-dist/fonts/tfm/public/cm/cmr12.tfm
 INPUT /usr/local/texlive/2015/texmf-dist/fonts/tfm/ptex/standard/tgoth10.tfm
 INPUT /usr/local/texlive/2015/texmf-dist/fonts/tfm/ptex/standard/goth10.tfm
 INPUT /usr/local/texlive/2015/texmf-dist/fonts/tfm/public/cm/cmbx12.tfm
+INPUT Tex_Section/Project_Overview.tex
+INPUT Tex_Section/Project_Overview.tex
 INPUT /usr/local/texlive/2015/texmf-dist/fonts/tfm/public/cm/cmbx12.tfm
+INPUT picture/Image_Recognition.png
+INPUT extractbb -O picture/Image_Recognition.png
+INPUT Tex_Section/Problem_Statement.tex
+INPUT Tex_Section/Problem_Statement.tex
+INPUT Tex_Section/Metrics.tex
+INPUT Tex_Section/Metrics.tex
 OUTPUT capstone.dvi
+INPUT picture/random_sample.png
+INPUT extractbb -O picture/random_sample.png
+INPUT picture/Distribution_of_Training_Data.png
+INPUT extractbb -O picture/Distribution_of_Training_Data.png
+INPUT picture/Distribution_of_Test_Data.png
+INPUT extractbb -O picture/Distribution_of_Test_Data.png
+INPUT picture/Architecture_of_CNN.png
+INPUT extractbb -O picture/Architecture_of_CNN.png
+INPUT picture/Structure_of_convolution.png
+INPUT extractbb -O picture/Structure_of_convolution.png
+INPUT picture/Pooling.png
+INPUT extractbb -O picture/Pooling.png
+INPUT picture/1layer_cnn.png
+INPUT extractbb -O picture/1layer_cnn.png
+INPUT picture/2layer_cnn.png
+INPUT extractbb -O picture/2layer_cnn.png
+INPUT picture/3layer_cnn.png
+INPUT extractbb -O picture/3layer_cnn.png
+INPUT picture/4layer_cnn.png
+INPUT extractbb -O picture/4layer_cnn.png
 INPUT capstone.aux
