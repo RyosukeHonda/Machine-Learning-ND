@@ -1,2 +1,7 @@
 \subsection{Improvement}
 Discussion is made as to how one aspect of the implementation could be improved. Potential solutions resulting from these improvements are considered and compared/contrasted to the current solution.
+
+
+In this task, I chose 4 layers of convolutions and 2 layers of fully connected layers. It is reported that the number of layers is the crucial factor in the high accuracy rate. For example, GoogLeNet,VGG,SPP are around 20 convolution layers. In 2015, ResNet which surpassed the human recognition had maximum 152 layers. In fact, deep networks can represent certain function classes far more efficiently than shallow ones. That means basically deeper networks can get the higher accuracy rate.
+
+However, the stacking of several non-linear transformations in convolutional feed-forward network architectures typically result in poor propagation of activations and gradients. Therefore, training deep network is difficult. ResNet takes the strategy of skipping connections between layers. When the number of layers increases, finding optimal parameters becomes more and more important. Bayesian optimization can be a method to find the optimal parameter.  
