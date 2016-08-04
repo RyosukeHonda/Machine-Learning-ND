@@ -9,7 +9,7 @@ The number of batch size is 32.The number of filters of each convolutional layer
 I tried 4 architecture of CNNs.
 
 \begin{enumerate}
- \item 1 Convolutional layer  2 Fully connected layers \\
+ \item 1 Convolutional layer \& 2 Fully connected layers \\
  The simplest version in these model.The input and output dimension on each layer are below.
  The accuracy rate of training and validation data are also below.
  
@@ -23,7 +23,10 @@ I tried 4 architecture of CNNs.
 
 \end{figure}
  
- \item 2 Convolutional layers  2 Fully connected layers \\
+ The accuracy rate on the training data is quite high,however the accuracy rate on the validation data is low. This means that this architecture falls into over-fitting.
+ 
+ 
+ \item 2 Convolutional layers \& 2 Fully connected layers \\
  The input and output dimension on each layer are below.
  The accuracy rate of training and validation data are also below.
  
@@ -37,8 +40,9 @@ I tried 4 architecture of CNNs.
 
 \end{figure}
 
+This architecture also caused over-fitting as mentioned above.
 
- \item 3 Convolutional layers 2 Fully connected layers \\
+ \item 3 Convolutional layers \& 2 Fully connected layers \\
  The accuracy rate of training and validation data are also below.
  
  \begin{figure}[H]
@@ -49,8 +53,10 @@ I tried 4 architecture of CNNs.
 	\end{center}
 	\label{fig:ten}
 
+This architecture also falls into over-fitting.
+
 \end{figure}
- \item 4 Convolutional layers 2 Fully connected layers \\
+ \item 4 Convolutional layers \& 2 Fully connected layers \\
  The accuracy rate of training and validation data are also below.
  
  \begin{figure}[H]
@@ -65,4 +71,8 @@ I tried 4 architecture of CNNs.
 \end{enumerate}
 
 
-From these results, I choose --------- as the benchmark for this task.
+This architecture is far better than the others. The accuracy rate of both training and validation data is high as the number of epochs increases.
+The accuracy rate of this architecture is 70.2\%. Actually the highest accuracy rate in CIFAR-10 is more than 95.0\% and the benchmark is quite lower than the highest one. My target in this task is to find the optimal parameters for the architecture. Therefore, I'll utilize this 4 layers convolution \& 2 fully connected layers architecture as a benchmark.
+
+
+From these results, I choose the fourth architecture(4 convolution layers \& 2 fully connected layers) as the benchmark for this task.

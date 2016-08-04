@@ -1,4 +1,4 @@
-This is e-pTeX, Version 3.14159265-p3.6-141210-2.6 (utf8.euc) (TeX Live 2015) (preloaded format=platex 2015.10.5)  4 AUG 2016 11:30
+This is e-pTeX, Version 3.14159265-p3.6-141210-2.6 (utf8.euc) (TeX Live 2015) (preloaded format=platex 2015.10.5)  4 AUG 2016 13:46
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -152,12 +152,12 @@ File: picture/3layer_cnn.png Graphic file (type bmp)
  <picture/3layer_cnn.png>
 File: picture/4layer_cnn.png Graphic file (type bmp)
 
-<picture/4layer_cnn.png>) (./Tex_Section3/Data_Preprocessing.tex [6])
+<picture/4layer_cnn.png> [6]) (./Tex_Section3/Data_Preprocessing.tex)
 (./Tex_Section3/Implementation.tex) (./Tex_Section3/Refinement.tex)
-(./Tex_Section4/Model_Evaluation_and_Validation.tex)
-(./Tex_Section4/Justification.tex) [7]
-(./Tex_Section5/Free-Form_Visualization.tex) (./Tex_Section5/Reflection.tex)
-(./Tex_Section5/Improvement.tex) [8] (./capstone.aux) ) 
+(./Tex_Section4/Model_Evaluation_and_Validation.tex [7])
+(./Tex_Section4/Justification.tex) (./Tex_Section5/Free-Form_Visualization.tex)
+(./Tex_Section5/Reflection.tex) (./Tex_Section5/Improvement.tex) [8]
+(./capstone.aux) ) 
 Here is how much of TeX's memory you used:
  738 strings out of 493777
  10307 string characters out of 6151334
@@ -167,4 +167,4 @@ Here is how much of TeX's memory you used:
  929 hyphenation exceptions out of 8191
  25i,8n,24p,713b,382s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on capstone.dvi (8 pages, 17892 bytes).
+Output written on capstone.dvi (8 pages, 19032 bytes).
