@@ -3,3 +3,21 @@ The process of improving upon the algorithms and techniques used is clearly docu
 
 Finding the optimal parameters for deep learning is quite difficult though it is important. When it comes to typical machine learning algorithm(Decision tree, Support Vector Machine etc.),grid search is taken to search the optimal parameters. However, it's almost impossible to apply grid search in deep learning because of the computational time.It has reported that the grid search strategies are inferior to random search.\cite{Random} Therefore, other methods are indispensable. A good choice is Bayesian optimization, which has been shown to outperform other state of the art global optimization algorithms on a number of challenging optimization benchmark functions.
 
+Bayesian Optimization
+
+For continuous functions,Bayesian optimization typically works by assuming the unknown function was sampled from a Gaussian process and maintains a posterior distribution for this function as observations are made or, in our case, as the results of running learning algorithm experiments with different hyper-parameters are observed. 
+
+The power of the Gaussian process to express a rich distribution on functions rests solely on the covariance function.The automatic relevance determination(ARD) squared exponential kernel is often used for Gaussian process regression.
+\begin{eqnarray}
+K_{SE}(x,x')=\theta_{0}\exp{(-\frac{1}{2}r^2(x,x'))} 
+\end{eqnarray}
+\begin{eqnarray}
+r^2(x,x')=\sum^{D}_{d=1}(x_{d}-x'_{d})^2/\theta^2_{d}
+\end{eqnarray}
+However, sample functions with this covariance function are unrealistically smooth for practical use. Therefore,  I use ARD Matern 5/2 kernel.
+
+\begin{eqnarray}
+K_{M52}(x,x')=\theta_{0}(1+\sqrt{5r^2(x,x')}+\frac{5}{3}r^2(x,x'))\exp{(-\sqrt{5r^2(x,x')})}
+\end{eqnarray}
+
+I optimized the number of the dimensions of the first fully-connected layer in this task.
