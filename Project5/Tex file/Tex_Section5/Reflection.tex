@@ -1,2 +1,10 @@
 \subsection{Reflection}
 Student adequately summarizes the end-to-end problem solution and discusses one or two particular aspects of the project they found interesting or difficult.
+
+
+In this project, I solved the image recognition problem. These days, deep neural networks surpass the other typical image recognition algorithms and even surpass human recognition. However, one of the problems of deep learning is tuning hyper-parameters.
+As is often said, the architecture of the neural network is black art.Putting more layers may tend to grasp the feature of the input data. However, because of the back-propagation process, the gradient will vanish or explode while calculating. Therefore, the deep neural networks don't always reach the good result. What's more, the deep networks tend to take much more time than the shallower ones. Personally, I don't have any GPU environment so that trying deep network was quite tough.Therefore, I tried training the shallow networks with hyper-parameter tuning. 
+
+First, I decided the number of layers of convolutional layers and then I optimized the parameters with bayesian optimization which is one of the methods to tune hyper-parameters. I chose 4 layers of convolutional layers and 2 layers of fully connected layers for the benchmark, then I optimized the number of dimension of the first layer of the fully connected layer with bayesian optimization. 
+
+One of the difficulties of this task was parameter tuning. At first, I tried to tune by grid search which is quite popular in the machine learning field. However, I soon realized the method isn't reasonable because of the number of the parameters and the computational time. Thus I chose other hyper-parameter tuning method which is bayesian optimization.
