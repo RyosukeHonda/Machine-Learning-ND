@@ -1,4 +1,4 @@
-This is e-pTeX, Version 3.14159265-p3.6-141210-2.6 (utf8.euc) (TeX Live 2015) (preloaded format=platex 2015.11.24)  10 AUG 2016 11:20
+This is e-pTeX, Version 3.14159265-p3.6-141210-2.6 (utf8.euc) (TeX Live 2015) (preloaded format=platex 2015.11.24)  10 AUG 2016 19:05
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -165,7 +165,7 @@ e un-re-al-is-ti-cally smooth
 ) [8] (./Tex_Section4/Model_Evaluation_and_Validation.tex)
 (./Tex_Section4/Justification.tex) (./Tex_Section5/Free-Form_Visualization.tex)
 (./Tex_Section5/Reflection.tex [9]) (./Tex_Section5/Improvement.tex)
-(./Tex_Section5/reference.tex) [10] (./capstone.aux) ) 
+(./Tex_Section5/reference.tex [10]) [11] (./capstone.aux) ) 
 Here is how much of TeX's memory you used:
  750 strings out of 493777
  10519 string characters out of 6151333
@@ -175,4 +175,4 @@ Here is how much of TeX's memory you used:
  929 hyphenation exceptions out of 8191
  25i,8n,24p,728b,380s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on capstone.dvi (10 pages, 26044 bytes).
+Output written on capstone.dvi (11 pages, 26628 bytes).
