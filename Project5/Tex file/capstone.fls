@@ -106,6 +106,12 @@ INPUT picture/final_model_loss.png
 INPUT extractbb -O picture/final_model_loss.png
 INPUT Tex_Section5/Free-Form_Visualization.tex
 INPUT Tex_Section5/Free-Form_Visualization.tex
+INPUT picture/label_correct.png
+INPUT extractbb -O picture/label_correct.png
+INPUT picture/output.png
+INPUT extractbb -O picture/output.png
+INPUT picture/heatmap.png
+INPUT extractbb -O picture/heatmap.png
 INPUT Tex_Section5/Reflection.tex
 INPUT Tex_Section5/Reflection.tex
 INPUT Tex_Section5/Improvement.tex

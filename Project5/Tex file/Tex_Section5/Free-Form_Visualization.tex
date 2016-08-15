@@ -1,7 +1,48 @@
 \subsection{Free-Form Visualization}
-A visualization has been provided that emphasizes an important quality about the project with thorough discussion. Visual cues are clearly defined.
-
+%A visualization has been provided that emphasizes an important quality about the project with thorough discussion. Visual cues are clearly defined.
 Some data are miss-classified in this task. I'll look into which label is the poorest result and I'll put some of the images which are miss-classified.
 
-The distribution of the miss-classified images are Fig.---
+The distribution of the correctly classified images are Fig.15
 
+\begin{figure}[H]
+
+	\begin{center}
+	\includegraphics[width=5cm]{picture/label_correct.png}
+	\caption{Distribution of the correct prediction}
+	\end{center}
+	\label{fig:15}
+
+\end{figure}
+
+As you can see, the number of label 3 which is "cat" is apparently small.That means "cat" is overly miss-classified in this dataset.
+
+The Fig.16 shows the distribution of the predicted output. The label 5("dog"),7("horse") and 9("truck") are conspicuously higher than the others. This shows that some of the label are miss classified.
+
+\begin{figure}[H]
+
+	\begin{center}
+	\includegraphics[width=5cm]{picture/output.png}
+	\caption{Distribution of the predicted label}
+	\end{center}
+	\label{fig:16}
+
+\end{figure}
+
+
+
+
+
+The heatmap below clearly explains the miss-classified data. Label 3("cat") is miss-classified as label 5("dog"). Label 4("deer") and label 5("dog") are miss-classified as label 7("horse"). Label 1("automobile") is miss-classified as label 9("truck").Judging from the heatmap, the miss-classified data are somewhat understandable since some cats are similar to dogs and some automobiles are similar to truck and so on.
+
+
+
+
+\begin{figure}[H]
+
+	\begin{center}
+	\includegraphics[width=5cm]{picture/heatmap.png}
+	\caption{Heatmap of the data}
+	\end{center}
+	\label{fig:17}
+
+\end{figure}
