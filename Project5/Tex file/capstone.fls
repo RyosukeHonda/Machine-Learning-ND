@@ -100,3 +100,16 @@ INPUT Tex_Section3/Refinement.tex
 INPUT Tex_Section3/Refinement.tex
 INPUT Tex_Section4/Model_Evaluation_and_Validation.tex
 INPUT Tex_Section4/Model_Evaluation_and_Validation.tex
+INPUT picture/final_model_cnn.png
+INPUT extractbb -O picture/final_model_cnn.png
+INPUT picture/final_model_loss.png
+INPUT extractbb -O picture/final_model_loss.png
+INPUT Tex_Section5/Free-Form_Visualization.tex
+INPUT Tex_Section5/Free-Form_Visualization.tex
+INPUT Tex_Section5/Reflection.tex
+INPUT Tex_Section5/Reflection.tex
+INPUT Tex_Section5/Improvement.tex
+INPUT Tex_Section5/Improvement.tex
+INPUT Tex_Section5/reference.tex
+INPUT Tex_Section5/reference.tex
+INPUT capstone.aux
