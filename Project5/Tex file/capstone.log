@@ -1,4 +1,4 @@
-This is e-pTeX, Version 3.14159265-p3.6-141210-2.6 (utf8.euc) (TeX Live 2015) (preloaded format=platex 2015.11.24)  16 AUG 2016 02:03
+This is e-pTeX, Version 3.14159265-p3.6-141210-2.6 (utf8.euc) (TeX Live 2015) (preloaded format=platex 2015.11.24)  16 AUG 2016 02:20
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -105,25 +105,19 @@ File: picture/Image_Recognition.png Graphic file (type bmp)
  <picture/Image_Recognition.png>)
 (./Tex_Section1/Problem_Statement.tex
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 11.
+(Font)              <7> on input line 8.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 11.
-
-Overfull \hbox (14.45903pt too wide) in paragraph at lines 10--13
-[]\OT1/cmr/m/n/10 The CIFAR-10 dataset con-sists of 60,000 32$\OMS/cmsy/m/n/10 
-^^B$\OT1/cmr/m/n/10 32$\OMS/cmsy/m/n/10 ^^B$\OT1/cmr/m/n/10 3 (width=height=32 
-and RGB=3)
- []
-
+(Font)              <5> on input line 8.
 ) (./Tex_Section1/Metrics.tex [1
 
-]) (./Tex_Section2/Data_Exploration.tex)
+])
+(./Tex_Section2/Data_Exploration.tex)
 (./Tex_Section2/Exploratory_Visualization.tex
 File: picture/random_sample.png Graphic file (type bmp)
  <picture/random_sample.png>
+[2]
 File: picture/Distribution_of_Training_Data.png Graphic file (type bmp)
-
-<picture/Distribution_of_Training_Data.png>
+ <picture/Distribution_of_Training_Data.png>
 File: picture/Distribution_of_Test_Data.png Graphic file (type bmp)
 
 <picture/Distribution_of_Test_Data.png>
@@ -131,10 +125,7 @@ Overfull \hbox (2.22221pt too wide) in paragraph at lines 18--32
 []$[]$ $[]$ 
  []
 
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-) (./Tex_Section2/Algorithms_and_Techniques.tex [2]
+) (./Tex_Section2/Algorithms_and_Techniques.tex
 File: picture/Architecture_of_CNN.png Graphic file (type bmp)
 
 <picture/Architecture_of_CNN.png>
@@ -155,22 +146,23 @@ File: picture/4layer_cnn.png Graphic file (type bmp)
 <picture/4layer_cnn.png> [6]) (./Tex_Section3/Data_Preprocessing.tex)
 (./Tex_Section3/Implementation.tex
 File: picture/layer_architecture.png Graphic file (type bmp)
- <picture/layer_architecture.png> [7])
-(./Tex_Section3/Refinement.tex
+ <picture/layer_architecture.png>)
+(./Tex_Section3/Refinement.tex [7]
 Overfull \hbox (7.55621pt too wide) in paragraph at lines 16--18
 \OT1/cmr/m/n/10 However, sam-ple func-tions with this co-vari-ance func-tion ar
 e un-re-al-is-ti-cally smooth
  []
 
-) [8] (./Tex_Section4/Model_Evaluation_and_Validation.tex
+) (./Tex_Section4/Model_Evaluation_and_Validation.tex
 File: picture/final_model_cnn.png Graphic file (type bmp)
 
-<picture/final_model_cnn.png>
+<picture/final_model_cnn.png> [8]
 File: picture/final_model_loss.png Graphic file (type bmp)
- <picture/final_model_loss.png> [9])
+ <picture/final_model_loss.png>)
 (./Tex_Section5/Free-Form_Visualization.tex
 File: picture/label_correct.png Graphic file (type bmp)
  <picture/label_correct.png>
+[9]
 Overfull \hbox (50.63039pt too wide) in paragraph at lines 19--20
 []\OT1/cmr/m/n/10 The Fig.16 shows the dis-tri-bu-tion of the pre-dicted out-pu
 t. The la-bel 5("dog"),7("horse")
@@ -180,15 +172,15 @@ File: picture/output.png Graphic file (type bmp)
 <picture/output.png>
 File: picture/heatmap.png Graphic file (type bmp)
  <picture/heatmap.png>) (./Tex_Section5/Reflection.tex
-[10]) (./Tex_Section5/Improvement.tex [11]) (./Tex_Section5/reference.tex)
+[10]) (./Tex_Section5/Improvement.tex) (./Tex_Section5/reference.tex [11])
 [12] (./capstone.aux) ) 
 Here is how much of TeX's memory you used:
  761 strings out of 493777
  10672 string characters out of 6151333
- 70776 words of memory out of 5000000
+ 69776 words of memory out of 5000000
  4225 multiletter control sequences out of 15000+600000
  13621 words of font info for 53 fonts, out of 8000000 for 9000
  929 hyphenation exceptions out of 8191
- 25i,8n,24p,728b,380s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 25i,8n,24p,730b,380s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on capstone.dvi (12 pages, 28588 bytes).
+Output written on capstone.dvi (12 pages, 25132 bytes).
