@@ -27,6 +27,8 @@ INPUT /usr/local/texlive/2015/texmf-dist/tex/latex/here/here.sty
 INPUT /usr/local/texlive/2015/texmf-dist/tex/latex/here/here.sty
 INPUT /usr/local/texlive/2015/texmf-dist/tex/latex/float/float.sty
 INPUT /usr/local/texlive/2015/texmf-dist/tex/latex/float/float.sty
+INPUT /usr/local/texlive/2015/texmf-dist/tex/latex/url/url.sty
+INPUT /usr/local/texlive/2015/texmf-dist/tex/latex/url/url.sty
 INPUT capstone.aux
 INPUT capstone.aux
 OUTPUT capstone.aux
@@ -80,6 +82,8 @@ INPUT picture/Structure_of_convolution.png
 INPUT extractbb -O picture/Structure_of_convolution.png
 INPUT picture/Pooling.png
 INPUT extractbb -O picture/Pooling.png
+INPUT /usr/local/texlive/2015/texmf-dist/tex/latex/base/omscmr.fd
+INPUT /usr/local/texlive/2015/texmf-dist/tex/latex/base/omscmr.fd
 INPUT Tex_Section2/Benchmark.tex
 INPUT Tex_Section2/Benchmark.tex
 INPUT picture/1layer_cnn.png
@@ -118,4 +122,5 @@ INPUT Tex_Section5/Improvement.tex
 INPUT Tex_Section5/Improvement.tex
 INPUT Tex_Section5/reference.tex
 INPUT Tex_Section5/reference.tex
+INPUT /usr/local/texlive/2015/texmf-dist/fonts/tfm/public/cm/cmtt10.tfm
 INPUT capstone.aux
