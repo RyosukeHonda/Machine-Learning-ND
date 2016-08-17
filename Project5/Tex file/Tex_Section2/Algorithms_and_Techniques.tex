@@ -2,7 +2,7 @@
 %Algorithms and techniques used in the project are thoroughly discussed and properly justified based on the characteristics of the problem.
 
 In this task, I'll use Convolutional Neural Network(CNN). CNN has been successful in  practical applications for image recognition.CNN consists of convolution layer, pooling layer and fully-connected layer and sometimes contains local contrast normalization(LCN). In this chapter, I'll discuss the convolution layer and pooling.
-As the name 'convolution' suggests, the network employs a mathematical operation called convolution. 
+As the name 'convolution' suggests, the network employs a mathematical operation called convolution. \cite{Deep Learning}\cite{Deep Learning2}
 
 Fig.5 is the example of the architecture of the CNN.
 \begin{figure}[htbp]
@@ -38,10 +38,18 @@ Fig.5 is the example of the architecture of the CNN.
 
 \end{figure}
 
+ 
 
+Convolutional neural networks are biologically inspired variants of multilayer perceptron.They are emulated by the behavior of a visual cortex. CNN has three distinguishing features which traditional multilayer perceptron models don't have.\cite{cnn}
 
-
-
+\begin{itemize}
+ \item 3D volumes of neurons\\
+ The layers of a CNN have neurons arranged in 3 dimensions: width,height and weight. The neurons inside a layer are only connected to a small region of the layer before it which is so called 'receptive field'.
+ \item Local Connectivity\\
+ This is the most distinguishing feature of CNN. Typical multilayer perceptron are densely connected. Because of the connectivity,  we can't utilize the architecture for image recognition because of the curse of dimensionality. As for CNN, the connectivity are inspired by the neuro-science(visual cortex). Therefore, the dimensionality is much smaller than the typical multilayer perceptron. The CNN architecture ensures that the learnt "filters" produce the strongest response to a spatially local input pattern. Stacking many such layers leads to non-linear "filters" that become increasingly "global". Because of this, the network can create good representations of small parts of input, then assemble representations of large areas from them.
+ \item Shared weights\\
+ Each filter is replicated across the entire visual field in CNN. These replicated units share the same parameterization and form a feature map. Since the parameters are shared, the number of free parameters decrease. Therefore, when running CNNs model, the memory use will decrease, which means we can train more powerful(more layers) networks.
+\end{itemize}
 
 
 

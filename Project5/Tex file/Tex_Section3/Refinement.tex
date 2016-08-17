@@ -8,11 +8,14 @@ Bayesian Optimization\cite{Bayesian Optimization}\\
 
 For continuous functions,Bayesian optimization typically works by assuming the unknown function was sampled from a Gaussian process and maintains a posterior distribution for this function as observations are made or, in our case, as the results of running learning algorithm experiments with different hyper-parameters are observed. 
 
-There are two major choices that must be made when performing Bayesian Optimization. At first, we must choose a prior over functions that will express assumptions about the function being optimized. For this we select the Gaussian process prior, because of its flexibility and tractability. Second, we must select acquisition function, which is used to build a utility function from the model posterior, allowing us to determine us to decide the next point to evaluate.
+There are two major choices that must be made when performing Bayesian Optimization. At first, we must choose a prior over functions that will express assumptions about the function being optimized. For this we select the Gaussian process prior, because of its flexibility and tractability. Second, we must select acquisition function, which is used to build a utility function from the model posterior, allowing us to determine us to decide the next point to evaluate.\
+
+Gaussian Process is a probabilistic model of regressor which  can predict the new output $y^{(n+1)}$ for $x^{(x+1)}$ when given the data $D=\{(x^{(n)},y^{(n)})\}^{N}_{n=1}$  
+For more overview of Gaussian process, please refer to Rasmussen and Williams\cite{Gaussian}
 
 As for the acquisition function for Bayesian Optimization, I used GP Upper Confidence Bound
  \begin{eqnarray}
-a_{UCB}(x;\{x_n,y_n\},\theta)=\mu(x;\{x_n,y_n\},\theta)-\kappa\sigma(x;\{x_n,y_n\},\theta)
+a_{UCB}(x;\{x_n,y_n\},\theta)=\mu(x;\{x_n,y_n\},\theta)+\kappa\sigma(x;\{x_n,y_n\},\theta)
 \end{eqnarray}
 Here, $\kappa$ is tunable parameter to balance exploitation against exploration.I set $\kappa$ as 2.576.
 

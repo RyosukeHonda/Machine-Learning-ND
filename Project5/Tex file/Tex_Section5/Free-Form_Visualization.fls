@@ -1,7 +1,0 @@
-PWD /Users/Ryosuke/Desktop/Machine-Learning-ND/Project5/Tex file/Tex_Section5
-INPUT /usr/local/texlive/2015/texmf.cnf
-INPUT /usr/local/texlive/2015/texmf-dist/web2c/texmf.cnf
-INPUT /usr/local/texlive/2015/texmf.cnf
-INPUT /usr/local/texlive/2015/texmf-var/web2c/eptex/platex.fmt
-INPUT Free-Form_Visualization.tex
-OUTPUT Free-Form_Visualization.log
