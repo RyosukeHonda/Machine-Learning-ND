@@ -5,7 +5,17 @@ Finding the optimal parameters for deep learning is quite difficult though it is
 
 Bayesian Optimization\cite{Bayesian Optimization}\\
 
+
 For continuous functions,Bayesian optimization typically works by assuming the unknown function was sampled from a Gaussian process and maintains a posterior distribution for this function as observations are made or, in our case, as the results of running learning algorithm experiments with different hyper-parameters are observed. 
+
+There are two major choices that must be made when performing Bayesian Optimization. At first, we must choose a prior over functions that will express assumptions about the function being optimized. For this we select the Gaussian process prior, because of its flexibility and tractability. Second, we must select acquisition function, which is used to build a utility function from the model posterior, allowing us to determine us to decide the next point to evaluate.
+
+As for the acquisition function for Bayesian Optimization, I used GP Upper Confidence Bound
+ \begin{eqnarray}
+a_{UCB}(x;\{x_n,y_n\},\theta)=\mu(x;\{x_n,y_n\},\theta)-\kappa\sigma(x;\{x_n,y_n\},\theta)
+\end{eqnarray}
+Here, $\kappa$ is tunable parameter to balance exploitation against exploration.I set $\kappa$ as 2.576.
+
 
 The power of the Gaussian process to express a rich distribution on functions rests solely on the covariance function.The automatic relevance determination(ARD) squared exponential kernel is often used for Gaussian process regression.
 \begin{eqnarray}
