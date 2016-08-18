@@ -1,9 +1,9 @@
 # Fdb version 3
-["dvipdf"] 1471480631 "capstone.dvi" "capstone.pdf" "capstone" 1471480632
-  "capstone.dvi" 1471480631 29428 5687bf1e7a9571de19898d60e06a3978 "latex"
+["dvipdf"] 1471486506 "capstone.dvi" "capstone.pdf" "capstone" 1471486508
+  "capstone.dvi" 1471486506 30116 3844692f25233077f29ad751cc4f413f "latex"
   (generated)
   "capstone.pdf"
-["latex"] 1471480628 "capstone.tex" "capstone.dvi" "capstone" 1471480632
+["latex"] 1471486505 "capstone.tex" "capstone.dvi" "capstone" 1471486508
   "/usr/local/texlive/2015/texmf-dist/fonts/map/fontname/texfonts.map" 1272929888 3287 e6b82fe08f5336d4d5ebc73fb1152e87 ""
   "/usr/local/texlive/2015/texmf-dist/fonts/tfm/ptex/standard/goth10.tfm" 1274206740 1200 05cd01c8b39c63a2f8185f7e6e5b2300 ""
   "/usr/local/texlive/2015/texmf-dist/fonts/tfm/ptex/standard/min10.tfm" 1274206740 1200 6411f221f4825dfcb18a17ab21ae7081 ""
@@ -45,14 +45,14 @@
   "Tex_Section2/Data_Exploration.tex" 1471281215 785 1674c3568e4d8dbe31eb2fcce26c8880 ""
   "Tex_Section2/Exploratory_Visualization.tex" 1471281248 1332 cf4e68a0ad8870837285ff29c22b95a3 ""
   "Tex_Section3/Data_Preprocessing.tex" 1471281356 1005 88be4711d3e43f0d94f4b16ccb135f53 ""
-  "Tex_Section3/Implementation.tex" 1471480591 840 6a4241ed73756b0ed28058556ac38f24 ""
+  "Tex_Section3/Implementation.tex" 1471486502 1330 5874bd08469a77940cc7a0744376f262 ""
   "Tex_Section3/Refinement.tex" 1471441953 3155 543638bf19cfaedf97182cc7776b6993 ""
   "Tex_Section4/Model_Evaluation_and_Validation.tex" 1471480620 2197 f3e7a386c1b254b370943021f4f2839a ""
   "Tex_Section5/Free-Form_Visualization.tex" 1471369694 1737 a7bec4bbdc71e22faaec02e73a81ce0b ""
   "Tex_Section5/Improvement.tex" 1471281652 1190 8a997b21cccb65f779a9c0c4172bd07d ""
   "Tex_Section5/Reflection.tex" 1471281614 1761 9eb967e22d03378c20ebcdcc98cd8ce4 ""
   "Tex_Section5/reference.tex" 1471455060 1244 3d44582b167e6418e7d11dd555883e93 ""
-  "capstone.aux" 1471480631 4344 6947bcf4b9cffb7e61e86fcff9b14c19 ""
+  "capstone.aux" 1471486506 4344 93d1c8c04fbdc348e414d471530c68a5 ""
   "capstone.tex" 1471441954 947 a2d89675a8805ead789b65e52df5be9a ""
   "extractbb -O picture/1layer_cnn.png" 0 -1 0 ""
   "extractbb -O picture/2layer_cnn.png" 0 -1 0 ""
@@ -89,6 +89,6 @@
   "picture/output.png" 1471369148 9119 7f5f9fa15129d5bda56e09a0034dc114 ""
   "picture/random_sample.png" 1470228883 726313 24aeb1b974299228b52acd71ee1922b0 ""
   (generated)
-  "capstone.log"
-  "capstone.dvi"
   "capstone.aux"
+  "capstone.dvi"
+  "capstone.log"

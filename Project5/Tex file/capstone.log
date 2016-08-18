@@ -1,4 +1,4 @@
-This is e-pTeX, Version 3.14159265-p3.6-141210-2.6 (utf8.euc) (TeX Live 2015) (preloaded format=platex 2015.11.24)  18 AUG 2016 09:37
+This is e-pTeX, Version 3.14159265-p3.6-141210-2.6 (utf8.euc) (TeX Live 2015) (preloaded format=platex 2015.11.24)  18 AUG 2016 11:15
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -165,7 +165,7 @@ Overfull \hbox (7.55621pt too wide) in paragraph at lines 29--31
 e un-re-al-is-ti-cally smooth
  []
 
-) (./Tex_Section4/Model_Evaluation_and_Validation.tex [9]
+[9]) (./Tex_Section4/Model_Evaluation_and_Validation.tex
 File: picture/final_model_accuracy.png Graphic file (type bmp)
 
 <picture/final_model_accuracy.png>
@@ -180,11 +180,11 @@ t. The la-bel 4("deer")
  []
 
 File: picture/output.png Graphic file (type bmp)
-<picture/output.png>
+<picture/output.png> [11]
 File: picture/heatmap.png Graphic file (type bmp)
- <picture/heatmap.png>) (./Tex_Section5/Reflection.tex
-[11]) (./Tex_Section5/Improvement.tex) [12] (./Tex_Section5/reference.tex)
-[13] (./capstone.aux) ) 
+ <picture/heatmap.png>) (./Tex_Section5/Reflection.tex [12]) (./Tex_Section5/Im
+provement.tex) (./Tex_Section5/reference.tex) [13]
+(./capstone.aux) ) 
 Here is how much of TeX's memory you used:
  856 strings out of 493777
  11923 string characters out of 6151333
@@ -194,4 +194,4 @@ Here is how much of TeX's memory you used:
  929 hyphenation exceptions out of 8191
  25i,8n,24p,809b,380s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on capstone.dvi (13 pages, 29428 bytes).
+Output written on capstone.dvi (13 pages, 30116 bytes).
