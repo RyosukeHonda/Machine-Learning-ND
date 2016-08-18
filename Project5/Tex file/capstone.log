@@ -1,4 +1,4 @@
-This is e-pTeX, Version 3.14159265-p3.6-141210-2.6 (utf8.euc) (TeX Live 2015) (preloaded format=platex 2015.10.5)  18 AUG 2016 15:49
+This is e-pTeX, Version 3.14159265-p3.6-141210-2.6 (utf8.euc) (TeX Live 2015) (preloaded format=platex 2015.10.5)  18 AUG 2016 16:31
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -106,27 +106,13 @@ LaTeX Font Info:    Font shape `JT1/mc/bx/n' in size <12> not available
 (Font)              Font shape `JT1/gt/m/n' tried instead on input line 1.
 LaTeX Font Info:    Font shape `JY1/mc/bx/n' in size <12> not available
 (Font)              Font shape `JY1/gt/m/n' tried instead on input line 1.
-LaTeX Font Info:    Font shape `JT1/mc/bx/n' in size <10> not available
-(Font)              Font shape `JT1/gt/m/n' tried instead on input line 4.
-LaTeX Font Info:    Font shape `JY1/mc/bx/n' in size <10> not available
-(Font)              Font shape `JY1/gt/m/n' tried instead on input line 4.
-
-
-LaTeX Warning: Reference `fig:one' on page 1 undefined on input line 4.
-
 File: picture/Image_Recognition.png Graphic file (type bmp)
-<picture/Image_Recognition.png>) (./Tex_Section1/Problem_Statement.tex
+ <picture/Image_Recognition.png>)
+(./Tex_Section1/Problem_Statement.tex
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <7> on input line 8.
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <5> on input line 8.
-
-
-LaTeX Warning: Citation `Very deep' on page 1 undefined on input line 13.
-
-
-LaTeX Warning: Citation `Fractional' on page 1 undefined on input line 13.
-
 ) (./Tex_Section1/Metrics.tex
 Overfull \hbox (14.19406pt too wide) in paragraph at lines 17--1
 \OT1/cmr/m/n/10 fore, I pro-pose a method, called "Bayesian Op-ti-miza-tion", t
@@ -135,26 +121,11 @@ o tune hyper-paramerers
 
 [1
 
-]
-
-LaTeX Warning: Citation `Deep Learning' on page 2 undefined on input line 6.
-
-) (./Tex_Section2/Data_Exploration.tex
-
-LaTeX Warning: Reference `fig:three' on page 2 undefined on input line 5.
-
-) (./Tex_Section2/Exploratory_Visualization.tex
-
-LaTeX Warning: Reference `fig:two' on page 2 undefined on input line 5.
-
-
-LaTeX Warning: Reference `fig:three' on page 2 undefined on input line 5.
-
-
-LaTeX Warning: Reference `fig:four' on page 2 undefined on input line 5.
-
+]) (./Tex_Section2/Data_Exploration.tex)
+(./Tex_Section2/Exploratory_Visualization.tex
 File: picture/random_sample.png Graphic file (type bmp)
-<picture/random_sample.png> [2]
+ <picture/random_sample.png>
+[2]
 File: picture/Distribution_of_Training_Data.png Graphic file (type bmp)
  <picture/Distribution_of_Training_Data.png>
 File: picture/Distribution_of_Test_Data.png Graphic file (type bmp)
@@ -165,27 +136,16 @@ Overfull \hbox (2.22221pt too wide) in paragraph at lines 18--32
  []
 
 ) (./Tex_Section2/Algorithms_and_Techniques.tex
-
-LaTeX Warning: Citation `Deep Learning' on page 3 undefined on input line 5.
-
-
-LaTeX Warning: Citation `Deep Learning2' on page 3 undefined on input line 5.
-
-
-LaTeX Warning: Citation `Machine Learning' on page 3 undefined on input line 7.
-
-
 File: picture/Architecture_of_CNN.png Graphic file (type bmp)
+
 <picture/Architecture_of_CNN.png>
 File: picture/Structure_of_convolution.png Graphic file (type bmp)
  <picture/Structure_of_convolution.png>
 File: picture/Pooling.png Graphic file (type bmp)
 
 <picture/Pooling.png> [3]
-
-LaTeX Warning: Citation `cnn' on page 4 undefined on input line 43.
-
 LaTeX Font Info:    Try loading font information for OMS+cmr on input line 46.
+
 (/usr/local/texlive/2015/texmf-dist/tex/latex/base/omscmr.fd
 File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
@@ -204,22 +164,7 @@ File: picture/4layer_cnn.png Graphic file (type bmp)
  <picture/4layer_cnn.png>) (./Tex_Section3/Data_Preprocessing.tex [7]) (./Tex_S
 ection3/Implementation.tex
 File: picture/layer_architecture.png Graphic file (type bmp)
-<picture/layer_architecture.png>
-
-LaTeX Warning: Citation `Glorot' on page 8 undefined on input line 31.
-
-[8]) (./Tex_Section3/Refinement.tex
-
-LaTeX Warning: Citation `Random' on page 9 undefined on input line 4.
-
-
-LaTeX Warning: Citation `Bayesian Optimization' on page 9 undefined on input li
-ne 6.
-
-
-LaTeX Warning: Citation `Gaussian' on page 9 undefined on input line 14.
-
-[9]
+<picture/layer_architecture.png> [8]) (./Tex_Section3/Refinement.tex [9]
 Overfull \hbox (7.55621pt too wide) in paragraph at lines 29--31
 \OT1/cmr/m/n/10 However, sam-ple func-tions with this co-vari-ance func-tion ar
 e un-re-al-is-ti-cally smooth
@@ -228,31 +173,24 @@ e un-re-al-is-ti-cally smooth
 ) (./Tex_Section4/Model_Evaluation_and_Validation.tex
 File: picture/final_model_accuracy.png Graphic file (type bmp)
 
-<picture/final_model_accuracy.png>
+<picture/final_model_accuracy.png> [10]
 File: picture/final_loss.png Graphic file (type bmp)
- <picture/final_loss.png> [10])
+ <picture/final_loss.png> [11])
 (./Tex_Section5/Free-Form_Visualization.tex
 File: picture/label_correct.png Graphic file (type bmp)
  <picture/label_correct.png>
-[11]
 File: picture/heatmap.png Graphic file (type bmp)
- <picture/heatmap.png>) (./Tex_Section5/Reflection.tex [12])
+
+<picture/heatmap.png>) (./Tex_Section5/Reflection.tex [12])
 (./Tex_Section5/Improvement.tex) (./Tex_Section5/reference.tex [13]) [14]
-(./capstone.aux)
-
-LaTeX Warning: There were undefined references.
-
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
- ) 
+(./capstone.aux) ) 
 Here is how much of TeX's memory you used:
- 861 strings out of 493777
- 11973 string characters out of 6151334
+ 857 strings out of 493777
+ 11924 string characters out of 6151334
  71186 words of memory out of 5000000
- 4316 multiletter control sequences out of 15000+600000
- 14097 words of font info for 55 fonts, out of 8000000 for 9000
+ 4313 multiletter control sequences out of 15000+600000
+ 13789 words of font info for 54 fonts, out of 8000000 for 9000
  929 hyphenation exceptions out of 8191
- 25i,8n,24p,1032b,380s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 25i,9n,24p,1032b,380s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on capstone.dvi (14 pages, 32824 bytes).
+Output written on capstone.dvi (14 pages, 34296 bytes).
