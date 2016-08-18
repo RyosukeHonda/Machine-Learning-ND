@@ -1,4 +1,4 @@
-This is e-pTeX, Version 3.14159265-p3.6-141210-2.6 (utf8.euc) (TeX Live 2015) (preloaded format=platex 2015.11.24)  18 AUG 2016 02:31
+This is e-pTeX, Version 3.14159265-p3.6-141210-2.6 (utf8.euc) (TeX Live 2015) (preloaded format=platex 2015.11.24)  18 AUG 2016 09:37
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -156,22 +156,21 @@ File: picture/2layer_cnn.png Graphic file (type bmp)
 File: picture/3layer_cnn.png Graphic file (type bmp)
  <picture/3layer_cnn.png> [6]
 File: picture/4layer_cnn.png Graphic file (type bmp)
- <picture/4layer_cnn.png>) (./Tex_Section3/Data_Preprocessing.tex) (./Tex_Secti
-on3/Implementation.tex
-[7]
+ <picture/4layer_cnn.png>) (./Tex_Section3/Data_Preprocessing.tex [7]) (./Tex_S
+ection3/Implementation.tex
 File: picture/layer_architecture.png Graphic file (type bmp)
- <picture/layer_architecture.png>) (./Tex_Section3/Refinement.tex [8]
+<picture/layer_architecture.png>) (./Tex_Section3/Refinement.tex [8]
 Overfull \hbox (7.55621pt too wide) in paragraph at lines 29--31
 \OT1/cmr/m/n/10 However, sam-ple func-tions with this co-vari-ance func-tion ar
 e un-re-al-is-ti-cally smooth
  []
 
-) (./Tex_Section4/Model_Evaluation_and_Validation.tex
+) (./Tex_Section4/Model_Evaluation_and_Validation.tex [9]
 File: picture/final_model_accuracy.png Graphic file (type bmp)
 
 <picture/final_model_accuracy.png>
 File: picture/final_loss.png Graphic file (type bmp)
- <picture/final_loss.png> [9])
+ <picture/final_loss.png> [10])
 (./Tex_Section5/Free-Form_Visualization.tex
 File: picture/label_correct.png Graphic file (type bmp)
  <picture/label_correct.png>
@@ -181,18 +180,18 @@ t. The la-bel 4("deer")
  []
 
 File: picture/output.png Graphic file (type bmp)
-<picture/output.png> [10]
+<picture/output.png>
 File: picture/heatmap.png Graphic file (type bmp)
- <picture/heatmap.png>) (./Tex_Section5/Reflection.tex [11]) (./Tex_Section5/Im
-provement.tex) (./Tex_Section5/reference.tex) [12]
-(./capstone.aux) ) 
+ <picture/heatmap.png>) (./Tex_Section5/Reflection.tex
+[11]) (./Tex_Section5/Improvement.tex) [12] (./Tex_Section5/reference.tex)
+[13] (./capstone.aux) ) 
 Here is how much of TeX's memory you used:
  856 strings out of 493777
  11923 string characters out of 6151333
- 70186 words of memory out of 5000000
+ 71186 words of memory out of 5000000
  4312 multiletter control sequences out of 15000+600000
  13789 words of font info for 54 fonts, out of 8000000 for 9000
  929 hyphenation exceptions out of 8191
  25i,8n,24p,809b,380s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on capstone.dvi (12 pages, 29360 bytes).
+Output written on capstone.dvi (13 pages, 29428 bytes).
