@@ -1,4 +1,4 @@
-This is e-pTeX, Version 3.14159265-p3.6-141210-2.6 (utf8.euc) (TeX Live 2015) (preloaded format=platex 2015.10.5)  18 AUG 2016 13:37
+This is e-pTeX, Version 3.14159265-p3.6-141210-2.6 (utf8.euc) (TeX Live 2015) (preloaded format=platex 2015.10.5)  18 AUG 2016 15:07
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -179,17 +179,22 @@ File: picture/final_loss.png Graphic file (type bmp)
 (./Tex_Section5/Free-Form_Visualization.tex
 File: picture/label_correct.png Graphic file (type bmp)
  <picture/label_correct.png>
+[11]
 Overfull \hbox (5.01913pt too wide) in paragraph at lines 19--20
 []\OT1/cmr/m/n/10 The Fig.16 shows the dis-tri-bu-tion of the pre-dicted out-pu
 t. The la-bel 4("deer")
  []
 
 File: picture/output.png Graphic file (type bmp)
-<picture/output.png> [11]
+<picture/output.png>
 File: picture/heatmap.png Graphic file (type bmp)
- <picture/heatmap.png>) (./Tex_Section5/Reflection.tex [12]) (./Tex_Section5/Im
-provement.tex) (./Tex_Section5/reference.tex [13])
-[14] (./capstone.aux) ) 
+ <picture/heatmap.png>) (./Tex_Section5/Reflection.tex
+[12]) (./Tex_Section5/Improvement.tex) (./Tex_Section5/reference.tex [13])
+[14] (./capstone.aux)
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
+ ) 
 Here is how much of TeX's memory you used:
  859 strings out of 493777
  11954 string characters out of 6151334
@@ -197,6 +202,6 @@ Here is how much of TeX's memory you used:
  4315 multiletter control sequences out of 15000+600000
  13789 words of font info for 54 fonts, out of 8000000 for 9000
  929 hyphenation exceptions out of 8191
- 25i,8n,24p,805b,380s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 25i,8n,24p,1032b,380s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on capstone.dvi (14 pages, 31692 bytes).
+Output written on capstone.dvi (14 pages, 33004 bytes).

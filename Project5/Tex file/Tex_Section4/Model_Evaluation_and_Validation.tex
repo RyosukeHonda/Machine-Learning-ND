@@ -39,6 +39,7 @@ The loss of the model is shown in Fig.14
 
 The model improves the accuracy rate by 2.0\%. The final model doesn't seem to fall into the overfitting according to the Fig.13 and when compared to the Fig.11 which is the benchmark result, the difference between the training and test accuracy rate is much smaller. That means the final model is more robust than the benchmark model. Therefore, the model improved compared to the benchmark result.
 
+I only optimize two parameters, learning rate and the number of first fully connected layer's neurons. The number of random sampling points of finding the optimal score in bayesian network is 25.  When using grid search, we can only search 5 values for each parameters(5$\times5$=25). Apparently 5 different values for each parameter is not enough to search optimal parameters for grid search. Therefore, much more different values are necessary, resulting much computationally expensive. The difference will be much distinguishable when I try to optimize more parameters. In this case, grid search won't be a choice to find optimal parameter because of the scalability.  As for bayesinan optimization, it is highly possible that I can't find the best parameters within 25 sample points. However, the parameters found within 25 sample points are better result than the benchmark model parameters. When I choose more sample points, it will probably get better results. 
 
 %The training and validation loss in the benchmark is Fig---. The counterpart in final result is Fig.---
 
