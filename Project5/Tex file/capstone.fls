@@ -82,8 +82,6 @@ INPUT picture/Structure_of_convolution.png
 INPUT extractbb -O picture/Structure_of_convolution.png
 INPUT picture/Pooling.png
 INPUT extractbb -O picture/Pooling.png
-INPUT /usr/local/texlive/2015/texmf-dist/tex/latex/base/omscmr.fd
-INPUT /usr/local/texlive/2015/texmf-dist/tex/latex/base/omscmr.fd
 INPUT Tex_Section2/Benchmark.tex
 INPUT Tex_Section2/Benchmark.tex
 INPUT picture/1layer_cnn.png
@@ -112,8 +110,6 @@ INPUT Tex_Section5/Free-Form_Visualization.tex
 INPUT Tex_Section5/Free-Form_Visualization.tex
 INPUT picture/label_correct.png
 INPUT extractbb -O picture/label_correct.png
-INPUT picture/output.png
-INPUT extractbb -O picture/output.png
 INPUT picture/heatmap.png
 INPUT extractbb -O picture/heatmap.png
 INPUT Tex_Section5/Reflection.tex

@@ -1,9 +1,9 @@
-This is e-pTeX, Version 3.14159265-p3.6-141210-2.6 (utf8.euc) (TeX Live 2015) (preloaded format=platex 2015.10.5)  18 AUG 2016 16:31
+This is e-pTeX, Version 3.14159265-p3.6-141210-2.6 (utf8.euc) (TeX Live 2015) (preloaded format=platex 2015.11.24)  19 AUG 2016 14:34
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**capstone
+**capstone.tex
 (./capstone.tex
 pLaTeX2e <2006/11/10> (based on LaTeX2e <2015/01/01> patch level 0)
 Babel <3.9l> and hyphenation patterns for 79 languages loaded.
@@ -143,28 +143,21 @@ File: picture/Structure_of_convolution.png Graphic file (type bmp)
  <picture/Structure_of_convolution.png>
 File: picture/Pooling.png Graphic file (type bmp)
 
-<picture/Pooling.png> [3]
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 46.
-
-(/usr/local/texlive/2015/texmf-dist/tex/latex/base/omscmr.fd
-File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
-)
-LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 46.
- [4])
-(./Tex_Section2/Benchmark.tex
+<picture/Pooling.png> [3] [4]) (./Tex_Section2/Benchmark.tex
 File: picture/1layer_cnn.png Graphic file (type bmp)
- <picture/1layer_cnn.png> [5]
-File: picture/2layer_cnn.png Graphic file (type bmp)
 
-<picture/2layer_cnn.png>
+<picture/1layer_cnn.png> [5]
+File: picture/2layer_cnn.png Graphic file (type bmp)
+ <picture/2layer_cnn.png>
 File: picture/3layer_cnn.png Graphic file (type bmp)
- <picture/3layer_cnn.png> [6]
+ <picture/3layer_cnn.png>
+[6]
 File: picture/4layer_cnn.png Graphic file (type bmp)
- <picture/4layer_cnn.png>) (./Tex_Section3/Data_Preprocessing.tex [7]) (./Tex_S
-ection3/Implementation.tex
+ <picture/4layer_cnn.png>) (./Tex_Section3/Data_Preprocessing.tex [7])
+(./Tex_Section3/Implementation.tex
 File: picture/layer_architecture.png Graphic file (type bmp)
-<picture/layer_architecture.png> [8]) (./Tex_Section3/Refinement.tex [9]
+ <picture/layer_architecture.png> [8])
+(./Tex_Section3/Refinement.tex [9]
 Overfull \hbox (7.55621pt too wide) in paragraph at lines 29--31
 \OT1/cmr/m/n/10 However, sam-ple func-tions with this co-vari-ance func-tion ar
 e un-re-al-is-ti-cally smooth
@@ -185,12 +178,12 @@ File: picture/heatmap.png Graphic file (type bmp)
 (./Tex_Section5/Improvement.tex) (./Tex_Section5/reference.tex [13]) [14]
 (./capstone.aux) ) 
 Here is how much of TeX's memory you used:
- 857 strings out of 493777
- 11924 string characters out of 6151334
+ 840 strings out of 493777
+ 11622 string characters out of 6151333
  71186 words of memory out of 5000000
- 4313 multiletter control sequences out of 15000+600000
+ 4299 multiletter control sequences out of 15000+600000
  13789 words of font info for 54 fonts, out of 8000000 for 9000
  929 hyphenation exceptions out of 8191
- 25i,9n,24p,1032b,380s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 25i,10n,24p,1036b,380s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on capstone.dvi (14 pages, 34296 bytes).
+Output written on capstone.dvi (14 pages, 34664 bytes).
