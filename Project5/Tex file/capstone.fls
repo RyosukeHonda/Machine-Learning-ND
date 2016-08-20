@@ -112,6 +112,8 @@ INPUT picture/label_correct.png
 INPUT extractbb -O picture/label_correct.png
 INPUT picture/heatmap.png
 INPUT extractbb -O picture/heatmap.png
+INPUT picture/miss_classified_pic.png
+INPUT extractbb -O picture/miss_classified_pic.png
 INPUT Tex_Section5/Reflection.tex
 INPUT Tex_Section5/Reflection.tex
 INPUT Tex_Section5/Improvement.tex
