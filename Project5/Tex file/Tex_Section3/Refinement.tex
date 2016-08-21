@@ -8,29 +8,43 @@ Bayesian Optimization\cite{Bayesian Optimization}\\
 
 For continuous functions,Bayesian optimization typically works by assuming the unknown function was sampled from a Gaussian process and maintains a posterior distribution for this function as observations are made or, in our case, as the results of running learning algorithm experiments with different hyper-parameters are observed. 
 
-There are two major choices that must be made when performing Bayesian Optimization. At first, we must choose a prior over functions that will express assumptions about the function being optimized. For this we select the Gaussian process prior, because of its flexibility and tractability. Second, we must select acquisition function, which is used to build a utility function from the model posterior, allowing us to determine us to decide the next point to evaluate.\
+%There are two major choices that must be made when performing Bayesian Optimization. At first, we must choose a prior over functions that will express assumptions about the function being optimized. For this we select the Gaussian process prior, because of its flexibility and tractability. Second, we must select acquisition function, which is used to build a utility function from the model posterior, allowing us to determine us to decide the next point to evaluate.\
+There are three steps for the Bayesian Optimization.
+\begin{enumerate}
+ \item Suppose the prior distribution that express assumptions about the function being optimized
+ \item Decide the posterior distribution of function by evaluating the randomly sampled sample data
+ \item Evaluate the posterior distribution of function and the candidates of the sample data.
+\end{enumerate}
 
-Gaussian Process is a probabilistic model of regressor which  can predict the new output $y^{(n+1)}$ for $x^{(x+1)}$ when given the data $D=\{(x^{(n)},y^{(n)})\}^{N}_{n=1}$  
+When implementing Bayesian Optimization, we have to pay attention to two major factors.\\
+
+First, we have to suppose the prior distribution of the blackbox function. The function is difficult to be optimized directly so that we have to approximate the function. For the flexibility and the tractability, Gaussian process has been chosen.Gaussian Process is a probabilistic model of regressor which  can predict the new output $y^{(n+1)}$ for $x^{(x+1)}$ when given the data $D=\{(x^{(n)},y^{(n)})\}^{N}_{n=1}$  
 For more overview of Gaussian process, please refer to Rasmussen and Williams\cite{Gaussian}
 
-As for the acquisition function for Bayesian Optimization, I used GP Upper Confidence Bound
- \begin{eqnarray}
-a_{UCB}(x;\{x_n,y_n\},\theta)=\mu(x;\{x_n,y_n\},\theta)+\kappa\sigma(x;\{x_n,y_n\},\theta)
-\end{eqnarray}
-Here, $\kappa$ is tunable parameter to balance exploitation against exploration.I set $\kappa$ as 2.576.
-
-
-The power of the Gaussian process to express a rich distribution on functions rests solely on the covariance function.The automatic relevance determination(ARD) squared exponential kernel is often used for Gaussian process regression.
+Gaussian process needs mean and covariance as parameters.We have to use kernel to calculate covariance.As for the Covariance function, squared exponential kernel is often used as a default function for Gaussian Process regression.
 \begin{eqnarray}
 K_{SE}(x,x')=\theta_{0}\exp{(-\frac{1}{2}r^2(x,x'))} 
 \end{eqnarray}
 \begin{eqnarray}
 r^2(x,x')=\sum^{D}_{d=1}(x_{d}-x'_{d})^2/\theta^2_{d}
 \end{eqnarray}
-However, sample functions with this covariance function are unrealistically smooth for practical use. Therefore,  I use ARD Matern 5/2 kernel.
+However, sample functions with this covariance function aren't smooth for practical use. Therefore,  I use ARD Matern 5/2 kernel instead.
 
 \begin{eqnarray}
 K_{M52}(x,x')=\theta_{0}(1+\sqrt{5r^2(x,x')}+\frac{5}{3}r^2(x,x'))\exp{(-\sqrt{5r^2(x,x')})}
 \end{eqnarray}
 
-I optimized the number of the dimensions of the first fully-connected layer and the learning rate in the optimizer(Adam) in this task.
+
+Second, we have to decide the sampling points to explore after the blackbox function is aproximated by gaussian process. To get the good sample, acquisition function is used. As for the acquisition function for Bayesian Optimization, I used GP Upper Confidence Bound
+ \begin{eqnarray}
+a_{UCB}(x;\{x_n,y_n\},\theta)=\mu(x;\{x_n,y_n\},\theta)+\kappa\sigma(x;\{x_n,y_n\},\theta)
+\end{eqnarray}
+Here, $\kappa$ is tunable parameter to balance exploitation against exploration.I set $\kappa$ as 2.576.
+
+
+To implement the ARD Matern 5/2 kernel, I used BayesianOptimization library \cite{library}.
+
+I optimize the number of the dimensions of the first fully-connected layer and the learning rate in the optimizer(Adam) in this task. The range of exploring values of these are between 10 to 1024 and between 0.0001 to 0.01,respectively. 25 of randomly sampled values are taken to find the optimal values by Bayesian optimization.
+
+
+%The power of the Gaussian process to express a rich distribution on functions rests solely on the covariance function.The automatic relevance determination(ARD) squared exponential kernel is often used for Gaussian process regression.
