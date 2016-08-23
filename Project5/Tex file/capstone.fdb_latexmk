@@ -1,9 +1,9 @@
 # Fdb version 3
-["dvipdf"] 1471763690 "capstone.dvi" "capstone.pdf" "capstone" 1471763692
-  "capstone.dvi" 1471763690 36384 a8445177bd6aee0687561d2d9f75ab9a "latex"
+["dvipdf"] 1471992485 "capstone.dvi" "capstone.pdf" "capstone" 1471992486
+  "capstone.dvi" 1471992485 37764 f8e328d7cdcc4842959439c3ac66f975 "latex"
   (generated)
   "capstone.pdf"
-["latex"] 1471763688 "capstone.tex" "capstone.dvi" "capstone" 1471763692
+["latex"] 1471992482 "capstone.tex" "capstone.dvi" "capstone" 1471992486
   "/usr/local/texlive/2015/texmf-dist/fonts/map/fontname/texfonts.map" 1272929888 3287 e6b82fe08f5336d4d5ebc73fb1152e87 ""
   "/usr/local/texlive/2015/texmf-dist/fonts/tfm/ptex/standard/goth10.tfm" 1274206740 1200 05cd01c8b39c63a2f8185f7e6e5b2300 ""
   "/usr/local/texlive/2015/texmf-dist/fonts/tfm/ptex/standard/min10.tfm" 1274206740 1200 6411f221f4825dfcb18a17ab21ae7081 ""
@@ -37,7 +37,7 @@
   "/usr/local/texlive/2015/texmf-var/web2c/eptex/platex.fmt" 1448337458 3999851 8e123a134dd7b5062f8f8597c4ca893f ""
   "/usr/local/texlive/2015/texmf.cnf" 1432479636 577 0d611272082f3cdb8e80e09a3c69cf07 ""
   "Tex_Section1/Metrics.tex" 1471657058 1116 7c7a96031ca6203f1cf459d9b06b8cf3 ""
-  "Tex_Section1/Problem_Statement.tex" 1471535885 1234 ebe9ecf5cdb1609f0e6961679b142ef1 ""
+  "Tex_Section1/Problem_Statement.tex" 1471829057 1672 1a6ede9d3197a2cd19db7ca6edc48590 ""
   "Tex_Section1/Project_Overview.tex" 1471280773 1055 e6ae332a684e4f6d4e0278edb5ae42eb ""
   "Tex_Section2/Algorithms_and_Techniques.tex" 1471584592 5277 12fd2ee470eba30e1c5a893e73f5a406 ""
   "Tex_Section2/Benchmark.tex" 1471657248 3034 7ff0f65f6b94fcab2ab3eac8b109b043 ""
@@ -46,12 +46,12 @@
   "Tex_Section3/Data_Preprocessing.tex" 1471281356 1005 88be4711d3e43f0d94f4b16ccb135f53 ""
   "Tex_Section3/Implementation.tex" 1471535885 2658 ceffb72cac39ce0fde9001966358ee2b ""
   "Tex_Section3/Refinement.tex" 1471761164 4566 12bdae30306dc1370d69bef072ebbd2f ""
-  "Tex_Section4/Model_Evaluation_and_Validation.tex" 1471535885 3166 cc052beef02149a8118128aa5f9b889c ""
-  "Tex_Section5/Free-Form_Visualization.tex" 1471655881 1644 3d4f5ec2bb00d7cbbafdb21dfac117d7 ""
+  "Tex_Section4/Model_Evaluation_and_Validation.tex" 1471992394 3803 76156a8fa6de111a387e4b4d541b6644 ""
+  "Tex_Section5/Free-Form_Visualization.tex" 1471992480 1644 3d4f5ec2bb00d7cbbafdb21dfac117d7 ""
   "Tex_Section5/Improvement.tex" 1471281652 1190 8a997b21cccb65f779a9c0c4172bd07d ""
   "Tex_Section5/Reflection.tex" 1471763481 2304 f74f2b5f14f84741246091909fdb1a7e ""
   "Tex_Section5/reference.tex" 1471760090 1716 4372165cbe2f842b7d2aa9ec2abfdf1b ""
-  "capstone.aux" 1471763690 4496 53bb911dabaab94599fa1cb02ca99b55 ""
+  "capstone.aux" 1471992485 4661 444125e2c8df756ce189d67c88b78275 ""
   "capstone.tex" 1471441954 947 a2d89675a8805ead789b65e52df5be9a ""
   "extractbb -O picture/1layer_cnn.png" 0 -1 0 ""
   "extractbb -O picture/2layer_cnn.png" 0 -1 0 ""
@@ -63,6 +63,7 @@
   "extractbb -O picture/Image_Recognition.png" 0 -1 0 ""
   "extractbb -O picture/Pooling.png" 0 -1 0 ""
   "extractbb -O picture/Structure_of_convolution.png" 0 -1 0 ""
+  "extractbb -O picture/Validation.png" 0 -1 0 ""
   "extractbb -O picture/final_loss.png" 0 -1 0 ""
   "extractbb -O picture/final_model_accuracy.png" 0 -1 0 ""
   "extractbb -O picture/heatmap.png" 0 -1 0 ""
@@ -80,6 +81,7 @@
   "picture/Image_Recognition.png" 1470228883 118948 121398d54dfcf3c6e03ea6f4d1022b3f ""
   "picture/Pooling.png" 1470228883 65848 01485263a6dc242ae93d89a069955c29 ""
   "picture/Structure_of_convolution.png" 1470228883 177501 c534e06ca23a0e028d500a5aa6a50296 ""
+  "picture/Validation.png" 1471991486 19158 a414ac2938e2be9bd27fb6abdd318220 ""
   "picture/final_loss.png" 1471363658 15747 2b409f38b4b4b867d13fe7e6f91e6540 ""
   "picture/final_model_accuracy.png" 1471363644 15307 8f4350fb419d9912b70b69a239984955 ""
   "picture/heatmap.png" 1471278248 7833 b24c6eb2931c97373fabbda8408d4127 ""

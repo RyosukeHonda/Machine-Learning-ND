@@ -61,9 +61,9 @@ INPUT picture/Image_Recognition.png
 INPUT extractbb -O picture/Image_Recognition.png
 INPUT Tex_Section1/Problem_Statement.tex
 INPUT Tex_Section1/Problem_Statement.tex
-INPUT Tex_Section1/Metrics.tex
-INPUT Tex_Section1/Metrics.tex
 OUTPUT capstone.dvi
+INPUT Tex_Section1/Metrics.tex
+INPUT Tex_Section1/Metrics.tex
 INPUT Tex_Section2/Data_Exploration.tex
 INPUT Tex_Section2/Data_Exploration.tex
 INPUT Tex_Section2/Exploratory_Visualization.tex
@@ -106,6 +106,8 @@ INPUT picture/final_model_accuracy.png
 INPUT extractbb -O picture/final_model_accuracy.png
 INPUT picture/final_loss.png
 INPUT extractbb -O picture/final_loss.png
+INPUT picture/Validation.png
+INPUT extractbb -O picture/Validation.png
 INPUT Tex_Section5/Free-Form_Visualization.tex
 INPUT Tex_Section5/Free-Form_Visualization.tex
 INPUT picture/label_correct.png
