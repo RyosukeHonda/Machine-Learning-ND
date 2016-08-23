@@ -10,8 +10,8 @@ The classes are completely mutually exclusive. There is no overlap within each i
 
 
 
-Many research have been done with the CIFAR-10 dataset. Some of the researches use very deep neural networks for training\cite{Very deep} and others have originality in pooling layer which is one of CNN components.\cite{Fractional}
+Many research have been done with the CIFAR-10 dataset. Some of the researches use very deep neural networks for training(ranging from 5 to more than 100 layers in the reference \cite{Very deep}). The reference proposes a way of training very deep networks by using adaptive gating units to regulate the information flow. Others have originality in pooling layer which is one of CNN components.The reference \cite{Fractional} proposes fractional max-pooling whose pooling size is fractional. The advantage of fractional max-pooling is to avoid overfitting.
 
 
 
-In this task, I'll discuss the image recognition by Convolutional Neural Network(CNN) and its hyper-parameter tuning. When constructing CNN model, hyper-parameter tuning is one of the essential and time-consuming tasks. Therefore, I propose a method, called "Bayesian Optimization", to tune hyper-paramerers by not using "grid search" which is not appropriate for this task because of computationally expensive.
+In this task, I'll discuss the image recognition by Convolutional Neural Network(CNN) and its hyper-parameter tuning. When constructing CNN model, hyper-parameter tuning is one of the essential and time-consuming tasks. Therefore, I propose a method, called "Bayesian Optimization", to tune hyper-paramerers by not using "grid search" which is not appropriate for this task because of computationally expensive. Especially, I'll tune the number of neurons in the fully connected layer and the learning rate of the optimizer.
