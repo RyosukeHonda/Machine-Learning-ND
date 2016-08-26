@@ -29,6 +29,8 @@ INPUT /usr/local/texlive/2015/texmf-dist/tex/latex/float/float.sty
 INPUT /usr/local/texlive/2015/texmf-dist/tex/latex/float/float.sty
 INPUT /usr/local/texlive/2015/texmf-dist/tex/latex/url/url.sty
 INPUT /usr/local/texlive/2015/texmf-dist/tex/latex/url/url.sty
+INPUT /usr/local/texlive/2015/texmf-dist/tex/latex/tools/indentfirst.sty
+INPUT /usr/local/texlive/2015/texmf-dist/tex/latex/tools/indentfirst.sty
 INPUT capstone.aux
 INPUT capstone.aux
 OUTPUT capstone.aux

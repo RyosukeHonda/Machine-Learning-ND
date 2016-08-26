@@ -1,4 +1,4 @@
-This is e-pTeX, Version 3.14159265-p3.6-141210-2.6 (utf8.euc) (TeX Live 2015) (preloaded format=platex 2015.11.24)  24 AUG 2016 07:48
+This is e-pTeX, Version 3.14159265-p3.6-141210-2.6 (utf8.euc) (TeX Live 2015) (preloaded format=platex 2015.11.24)  27 AUG 2016 01:22
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -71,39 +71,43 @@ Package: float 2001/11/08 v1.3d Float enhancements (AL)
 (/usr/local/texlive/2015/texmf-dist/tex/latex/url/url.sty
 \Urlmuskip=\muskip10
 Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
-) (./capstone.aux
+)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/tools/indentfirst.sty
+Package: indentfirst 1995/11/23 v1.03 Indent first paragraph (DPC)
+)
+(./capstone.aux
 
 LaTeX Warning: Label `fig:14' multiply defined.
 
 )
 \openout1 = `capstone.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 9.
-LaTeX Font Info:    ... okay on input line 9.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 9.
-LaTeX Font Info:    ... okay on input line 9.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 9.
-LaTeX Font Info:    ... okay on input line 9.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 9.
-LaTeX Font Info:    ... okay on input line 9.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 9.
-LaTeX Font Info:    ... okay on input line 9.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 9.
-LaTeX Font Info:    ... okay on input line 9.
-LaTeX Font Info:    Checking defaults for JY1/mc/m/n on input line 9.
-LaTeX Font Info:    ... okay on input line 9.
-LaTeX Font Info:    Checking defaults for JT1/mc/m/n on input line 9.
-LaTeX Font Info:    ... okay on input line 9.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 10.
+LaTeX Font Info:    ... okay on input line 10.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 10.
+LaTeX Font Info:    ... okay on input line 10.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 10.
+LaTeX Font Info:    ... okay on input line 10.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 10.
+LaTeX Font Info:    ... okay on input line 10.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 10.
+LaTeX Font Info:    ... okay on input line 10.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 10.
+LaTeX Font Info:    ... okay on input line 10.
+LaTeX Font Info:    Checking defaults for JY1/mc/m/n on input line 10.
+LaTeX Font Info:    ... okay on input line 10.
+LaTeX Font Info:    Checking defaults for JT1/mc/m/n on input line 10.
+LaTeX Font Info:    ... okay on input line 10.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <12> on input line 10.
+(Font)              <12> on input line 11.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 10.
+(Font)              <8> on input line 11.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 10.
+(Font)              <6> on input line 11.
 LaTeX Font Info:    Font shape `JT1/mc/bx/n' in size <14.4> not available
-(Font)              Font shape `JT1/gt/m/n' tried instead on input line 12.
+(Font)              Font shape `JT1/gt/m/n' tried instead on input line 13.
 LaTeX Font Info:    Font shape `JY1/mc/bx/n' in size <14.4> not available
-(Font)              Font shape `JY1/gt/m/n' tried instead on input line 12.
+(Font)              Font shape `JY1/gt/m/n' tried instead on input line 13.
  (./Tex_Section1/Project_Overview.tex
 LaTeX Font Info:    Font shape `JT1/mc/bx/n' in size <12> not available
 (Font)              Font shape `JT1/gt/m/n' tried instead on input line 1.
@@ -113,13 +117,13 @@ File: picture/Image_Recognition.png Graphic file (type bmp)
  <picture/Image_Recognition.png>)
 (./Tex_Section1/Problem_Statement.tex
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 8.
+(Font)              <7> on input line 7.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 8.
+(Font)              <5> on input line 7.
  [1
 
 ]) (./Tex_Section1/Metrics.tex
-Overfull \hbox (14.19406pt too wide) in paragraph at lines 17--1
+Overfull \hbox (14.19406pt too wide) in paragraph at lines 16--1
 \OT1/cmr/m/n/10 fore, I pro-pose a method, called "Bayesian Op-ti-miza-tion", t
 o tune hyper-paramerers
  []
@@ -185,12 +189,12 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 846 strings out of 493777
- 11729 string characters out of 6151333
+ 853 strings out of 493777
+ 11981 string characters out of 6151333
  71186 words of memory out of 5000000
- 4303 multiletter control sequences out of 15000+600000
+ 4306 multiletter control sequences out of 15000+600000
  13789 words of font info for 54 fonts, out of 8000000 for 9000
  929 hyphenation exceptions out of 8191
  25i,10n,24p,1036b,380s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on capstone.dvi (16 pages, 37764 bytes).
+Output written on capstone.dvi (16 pages, 37768 bytes).
